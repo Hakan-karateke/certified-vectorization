@@ -267,6 +267,8 @@ def main() -> None:
         '  - family-names: "Karateke"\n'
         '    given-names: "Hakan"\n'
         f'version: "{VERSION}"\n'
+        'doi: "10.5281/zenodo.24299983"\n'
+        'repository-code: "https://github.com/Hakan-karateke/certified-vectorization"\n'
         'license: "MIT"\n'
         "keywords:\n"
         "  - vectorization\n"
