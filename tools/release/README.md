@@ -5,6 +5,8 @@ Implementation, experiments and manuscript for
 > **Certified raster-to-vector conversion with provably minimal polygons and
 > line–arc rings** — Hakan Karateke
 
+Archived release: [doi:10.5281/zenodo.24299983](https://doi.org/10.5281/zenodo.24299983)
+
 Given a binary image, the software returns a vector model of its pixel
 boundary together with a certificate that an independent checker re-derives
 from the stored coefficients alone:

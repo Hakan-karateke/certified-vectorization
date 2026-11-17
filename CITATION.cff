@@ -6,6 +6,8 @@ authors:
   - family-names: "Karateke"
     given-names: "Hakan"
 version: "3.0.0"
+doi: "10.5281/zenodo.24299983"
+repository-code: "https://github.com/Hakan-karateke/certified-vectorization"
 license: "MIT"
 keywords:
   - vectorization

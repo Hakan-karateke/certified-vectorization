@@ -1,4 +1,9 @@
 \documentclass[11pt,a4paper]{article}
+% Real word spaces and Unicode glyph names in the PDF, so that text extracted
+% from it (search, copy, automated readers) matches the typeset text.
+\input{glyphtounicode}
+\pdfgentounicode=1
+\pdfinterwordspaceon
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
@@ -914,9 +919,10 @@ of the arc is the sign of two cross products, and with $\rho=\lVert p-c\rVert$
 the inequality $\lvert\rho-R\rvert\le\tau$ is equivalent to
 $\rho^{2}+R^{2}-\tau^{2}\le0$ or
 $(\rho^{2}+R^{2}-\tau^{2})^{2}\le4\rho^{2}R^{2}$. A piece that fails this exact
-test is removed and the search repeated; from then on the lower bound is no
-longer updated, so that a result is reported as optimal only if the verified
-ring attains a bound obtained before any such removal.
+test is removed and the search repeated; from then on the lower bound is
+taken in the superset graph that still contains the rejected pieces, so that
+a result is reported as optimal only if the verified ring attains a valid
+lower bound.
 
 \begin{remark}[What the node criterion does not give]\label{rem:arcscope}
 Unlike Proposition~\ref{prop:capsule-chain}, Definition~\ref{def:arcvalid}
@@ -1405,7 +1411,8 @@ synthetic families are used:
 feature size, which resembles a contour map and whose boundary length grows
 with the area; and \emph{drawing}, a grid of thick strokes, circles and
 rounded rectangles, which resembles a scanned technical drawing and contains
-point contacts. No real maps or scans were used.
+point contacts. Apart from the single scanned map reported at the end of this
+subsection, no real maps or scans were used.
 
 Three fixed resource limits of the implementation had to be lifted for this
 experiment: the tracer refused more than $4\cdot10^{5}$ unit edges, the
@@ -1588,11 +1595,11 @@ evaluated inside a production CAD or illustration system.
 
 \section{Code and data availability}\label{sec:availability}
 
-% TODO before submission: add the Zenodo DOI of release 3.0.0 next to the URL;
-% if the venue is double-blind, use an anonymised mirror instead.
+% If the venue is double-blind, replace the two links by an anonymised mirror.
 The implementation (release 3.0.0, MIT licence), the experiment scripts, the
 dataset manifest and the recorded results of every table are available at
-\url{https://github.com/Hakan-karateke/certified-vectorization}. The numbers of
+\url{https://github.com/Hakan-karateke/certified-vectorization} and archived at
+\url{https://doi.org/10.5281/zenodo.24299983}. The numbers of
 this paper are produced by the following scripts in \texttt{examples/}:
 \begin{itemize}
 \item \texttt{optimality\_gap.py}: Table~\ref{tab:gap} and
