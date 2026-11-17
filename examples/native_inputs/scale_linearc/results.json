@@ -1,0 +1,98 @@
+[
+ {
+  "epsilon": 1.0,
+  "pixels": 1048576,
+  "rings": 12,
+  "reference_edges": 5720,
+  "largest_ring_edges": 1856,
+  "contacts": 0,
+  "trace_seconds": 0.05764429998816922,
+  "topology_seconds": 0.006885400041937828,
+  "linearc": {
+   "pieces": 172,
+   "arcs": 160,
+   "optimal_in_class": true,
+   "search_seconds": 105.67478770000162,
+   "certify_seconds": 4.903623000020161,
+   "certificate_status": "proven",
+   "certified_upper_bound": 0.9838143191126527,
+   "topology_method": "rational_monotone_Bernstein_hulls_and_exact_Jordan_nesting",
+   "certificate_reasons": []
+  },
+  "kind": "terrain",
+  "size": 1024
+ },
+ {
+  "epsilon": 1.0,
+  "pixels": 4194304,
+  "rings": 13,
+  "reference_edges": 19952,
+  "largest_ring_edges": 12478,
+  "contacts": 0,
+  "trace_seconds": 0.2405752000049688,
+  "topology_seconds": 0.018563400022685528,
+  "linearc": {
+   "pieces": 576,
+   "arcs": 559,
+   "optimal_in_class": true,
+   "search_seconds": 601.3292815000168,
+   "certify_seconds": 20.66964639996877,
+   "certificate_status": "proven",
+   "certified_upper_bound": 0.9858075233929174,
+   "topology_method": "rational_monotone_Bernstein_hulls_and_exact_Jordan_nesting",
+   "certificate_reasons": []
+  },
+  "kind": "terrain",
+  "size": 2048
+ },
+ {
+  "epsilon": 1.0,
+  "pixels": 1048576,
+  "rings": 34,
+  "reference_edges": 8678,
+  "largest_ring_edges": 588,
+  "contacts": 1,
+  "trace_seconds": 0.10209759999997914,
+  "topology_seconds": 0.01375819998793304,
+  "linearc": {
+   "pieces": 224,
+   "arcs": 183,
+   "optimal_in_class": true,
+   "search_seconds": 260.34549269999843,
+   "certify_seconds": 7.373581900028512,
+   "certificate_status": "undetermined",
+   "certified_upper_bound": 0.9854819858820695,
+   "topology_method": null,
+   "certificate_reasons": [
+    "Bernstein/Jordan yeter koşulları sağlanamadı; genel topoloji sonucu çıkarılmaz."
+   ]
+  },
+  "kind": "drawing",
+  "size": 1024
+ },
+ {
+  "epsilon": 1.0,
+  "pixels": 4194304,
+  "rings": 121,
+  "reference_edges": 38942,
+  "largest_ring_edges": 588,
+  "contacts": 2,
+  "trace_seconds": 0.5072104000137188,
+  "topology_seconds": 0.04051879997132346,
+  "linearc": {
+   "pieces": 802,
+   "arcs": 655,
+   "optimal_in_class": true,
+   "search_seconds": 2131.1039722000132,
+   "certify_seconds": 41.13852669997141,
+   "certificate_status": "undetermined",
+   "certified_upper_bound": 0.9854819858829358,
+   "topology_method": null,
+   "certificate_reasons": [
+    "Bernstein/Jordan yeter koşulları sağlanamadı; genel topoloji sonucu çıkarılmaz."
+   ]
+  },
+  "kind": "drawing",
+  "size": 2048
+ }
+]

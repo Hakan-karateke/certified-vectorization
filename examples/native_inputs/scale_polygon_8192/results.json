@@ -1,0 +1,25 @@
+[
+ {
+  "epsilon": 1.0,
+  "pixels": 67108864,
+  "rings": 285,
+  "reference_edges": 370558,
+  "largest_ring_edges": 85384,
+  "contacts": 0,
+  "trace_seconds": 5.800003899959847,
+  "topology_seconds": 5.045836000004783,
+  "polygon": {
+   "pieces": 25184,
+   "arcs": 0,
+   "optimal_in_class": true,
+   "search_seconds": 78.67699740000535,
+   "certify_seconds": 169.173849600018,
+   "certificate_status": "proven",
+   "certified_upper_bound": 0.9999563940256163,
+   "topology_method": "rational_monotone_Bernstein_hulls_and_exact_Jordan_nesting",
+   "certificate_reasons": []
+  },
+  "kind": "terrain",
+  "size": 8192
+ }
+]

@@ -1,0 +1,1500 @@
+{
+  "schema_version": "1.0",
+  "application_version": "2.5.0",
+  "format": "iges",
+  "cad_file": "reconstruction.iges",
+  "cad_sha256": "76a39899cb12ba045a653a885f339428dc97fd9fd79c8efb691ec9dd25da8dc7",
+  "cad_options": {
+    "unit": "mm",
+    "scale": 0.1,
+    "tolerance": 0.01,
+    "allow_approximation": false
+  },
+  "coordinate_contract": {
+    "plane": "XY; z=0",
+    "axis": "x_right_y_up",
+    "mapping": "CAD coordinates = working coordinates * scale; origin unchanged",
+    "physical_calibration": "user_assigned_scale_not_inferred_from_image"
+  },
+  "representation": "DXF: grouped planar curves; STEP/IGES: planar faces with hole wires; no solids or native dimensional constraint/history tree",
+  "orientation_contract": "STEP/IGES face normal +Z, outer wires CCW and hole wires CW; source traversal remains in selected_model, face reversals in entity_mapping. Readers may reparameterize native curves.",
+  "selected_model": {
+    "id": "mixed-0.65",
+    "family": "mixed",
+    "pieces": [
+      {
+        "kind": "circle",
+        "params": {
+          "arc": {
+            "a": [
+              479.0,
+              875.0
+            ],
+            "b": [
+              726.75,
+              804.0
+            ],
+            "bulge": -0.17626965539339773
+          }
+        },
+        "interval": [
+          0.0,
+          1.0
+        ],
+        "start": [
+          479.0,
+          875.0
+        ],
+        "end": [
+          726.75,
+          804.0
+        ],
+        "boundary_id": 0,
+        "component_id": 0,
+        "transform": "normalization.source_to_working",
+        "errors": {
+          "scope": "owning_boundary",
+          "sampled_hausdorff": 1.9387424317197588,
+          "rms": 0.486890827273916,
+          "hausdorff_upper_bound": 2.363742441719759,
+          "forward_max": 1.9387424317197588,
+          "backward_max": 1.6460458028504945
+        },
+        "tolerances": {
+          "flatten": 0.05,
+          "sample_spacing": 0.75,
+          "join": 1e-07,
+          "floating_margin": 1e-08
+        }
+      },
+      {
+        "kind": "bezier",
+        "params": {
+          "controls": [
+            [
+              726.75,
+              804.0
+            ],
+            [
+              804.1064642027893,
+              746.0819206895061
+            ],
+            [
+              804.4596625113688,
+              649.0346086292593
+            ],
+            [
+              800.0,
+              558.5
+            ]
+          ]
+        },
+        "interval": [
+          0.0,
+          1.0
+        ],
+        "start": [
+          726.75,
+          804.0
+        ],
+        "end": [
+          800.0,
+          558.5
+        ],
+        "boundary_id": 0,
+        "component_id": 0,
+        "transform": "normalization.source_to_working",
+        "errors": {
+          "fitting_rank": 2,
+          "fitting_condition": 2.643700359660103,
+          "solver": "chord_parameter_linear_least_squares",
+          "scope": "owning_boundary",
+          "sampled_hausdorff": 1.9387424317197588,
+          "rms": 0.486890827273916,
+          "hausdorff_upper_bound": 2.363742441719759,
+          "forward_max": 1.9387424317197588,
+          "backward_max": 1.6460458028504945
+        },
+        "tolerances": {
+          "flatten": 0.05,
+          "sample_spacing": 0.75,
+          "join": 1e-07,
+          "floating_margin": 1e-08
+        }
+      },
+      {
+        "kind": "line",
+        "params": {
+          "a": [
+            800.0,
+            558.5
+          ],
+          "b": [
+            800.0,
+            239.7500000000001
+          ]
+        },
+        "interval": [
+          0.0,
+          1.0
+        ],
+        "start": [
+          800.0,
+          558.5
+        ],
+        "end": [
+          800.0,
+          239.7500000000001
+        ],
+        "boundary_id": 0,
+        "component_id": 0,
+        "transform": "normalization.source_to_working",
+        "errors": {
+          "scope": "owning_boundary",
+          "sampled_hausdorff": 1.9387424317197588,
+          "rms": 0.486890827273916,
+          "hausdorff_upper_bound": 2.363742441719759,
+          "forward_max": 1.9387424317197588,
+          "backward_max": 1.6460458028504945
+        },
+        "tolerances": {
+          "flatten": 0.05,
+          "sample_spacing": 0.75,
+          "join": 1e-07,
+          "floating_margin": 1e-08
+        }
+      },
+      {
+        "kind": "line",
+        "params": {
+          "a": [
+            800.0,
+            239.7500000000001
+          ],
+          "b": [
+            799.9062500000001,
+            200.0
+          ]
+        },
+        "interval": [
+          0.0,
+          1.0
+        ],
+        "start": [
+          800.0,
+          239.7500000000001
+        ],
+        "end": [
+          799.9062500000001,
+          200.0
+        ],
+        "boundary_id": 0,
+        "component_id": 0,
+        "transform": "normalization.source_to_working",
+        "errors": {
+          "scope": "owning_boundary",
+          "sampled_hausdorff": 1.9387424317197588,
+          "rms": 0.486890827273916,
+          "hausdorff_upper_bound": 2.363742441719759,
+          "forward_max": 1.9387424317197588,
+          "backward_max": 1.6460458028504945
+        },
+        "tolerances": {
+          "flatten": 0.05,
+          "sample_spacing": 0.75,
+          "join": 1e-07,
+          "floating_margin": 1e-08
+        }
+      },
+      {
+        "kind": "line",
+        "params": {
+          "a": [
+            799.9062500000001,
+            200.0
+          ],
+          "b": [
+            760.0625,
+            200.0
+          ]
+        },
+        "interval": [
+          0.0,
+          1.0
+        ],
+        "start": [
+          799.9062500000001,
+          200.0
+        ],
+        "end": [
+          760.0625,
+          200.0
+        ],
+        "boundary_id": 0,
+        "component_id": 0,
+        "transform": "normalization.source_to_working",
+        "errors": {
+          "scope": "owning_boundary",
+          "sampled_hausdorff": 1.9387424317197588,
+          "rms": 0.486890827273916,
+          "hausdorff_upper_bound": 2.363742441719759,
+          "forward_max": 1.9387424317197588,
+          "backward_max": 1.6460458028504945
+        },
+        "tolerances": {
+          "flatten": 0.05,
+          "sample_spacing": 0.75,
+          "join": 1e-07,
+          "floating_margin": 1e-08
+        }
+      },
+      {
+        "kind": "line",
+        "params": {
+          "a": [
+            760.0625,
+            200.0
+          ],
+          "b": [
+            680.375,
+            200.0
+          ]
+        },
+        "interval": [
+          0.0,
+          1.0
+        ],
+        "start": [
+          760.0625,
+          200.0
+        ],
+        "end": [
+          680.375,
+          200.0
+        ],
+        "boundary_id": 0,
+        "component_id": 0,
+        "transform": "normalization.source_to_working",
+        "errors": {
+          "scope": "owning_boundary",
+          "sampled_hausdorff": 1.9387424317197588,
+          "rms": 0.486890827273916,
+          "hausdorff_upper_bound": 2.363742441719759,
+          "forward_max": 1.9387424317197588,
+          "backward_max": 1.6460458028504945
+        },
+        "tolerances": {
+          "flatten": 0.05,
+          "sample_spacing": 0.75,
+          "join": 1e-07,
+          "floating_margin": 1e-08
+        }
+      },
+      {
+        "kind": "line",
+        "params": {
+          "a": [
+            680.375,
+            200.0
+          ],
+          "b": [
+            521.0,
+            200.0
+          ]
+        },
+        "interval": [
+          0.0,
+          1.0
+        ],
+        "start": [
+          680.375,
+          200.0
+        ],
+        "end": [
+          521.0,
+          200.0
+        ],
+        "boundary_id": 0,
+        "component_id": 0,
+        "transform": "normalization.source_to_working",
+        "errors": {
+          "scope": "owning_boundary",
+          "sampled_hausdorff": 1.9387424317197588,
+          "rms": 0.486890827273916,
+          "hausdorff_upper_bound": 2.363742441719759,
+          "forward_max": 1.9387424317197588,
+          "backward_max": 1.6460458028504945
+        },
+        "tolerances": {
+          "flatten": 0.05,
+          "sample_spacing": 0.75,
+          "join": 1e-07,
+          "floating_margin": 1e-08
+        }
+      },
+      {
+        "kind": "line",
+        "params": {
+          "a": [
+            521.0,
+            200.0
+          ],
+          "b": [
+            202.25,
+            200.0
+          ]
+        },
+        "interval": [
+          0.0,
+          1.0
+        ],
+        "start": [
+          521.0,
+          200.0
+        ],
+        "end": [
+          202.25,
+          200.0
+        ],
+        "boundary_id": 0,
+        "component_id": 0,
+        "transform": "normalization.source_to_working",
+        "errors": {
+          "scope": "owning_boundary",
+          "sampled_hausdorff": 1.9387424317197588,
+          "rms": 0.486890827273916,
+          "hausdorff_upper_bound": 2.363742441719759,
+          "forward_max": 1.9387424317197588,
+          "backward_max": 1.6460458028504945
+        },
+        "tolerances": {
+          "flatten": 0.05,
+          "sample_spacing": 0.75,
+          "join": 1e-07,
+          "floating_margin": 1e-08
+        }
+      },
+      {
+        "kind": "ellipse",
+        "params": {
+          "arc": {
+            "controls": [
+              [
+                202.25,
+                200.0
+              ],
+              [
+                197.69620674504236,
+                205.45730976279572
+              ],
+              [
+                200.0,
+                217.671875
+              ]
+            ],
+            "weight": 0.7169461812415922
+          }
+        },
+        "interval": [
+          0.0,
+          1.0
+        ],
+        "start": [
+          202.25,
+          200.0
+        ],
+        "end": [
+          200.0,
+          217.671875
+        ],
+        "boundary_id": 0,
+        "component_id": 0,
+        "transform": "normalization.source_to_working",
+        "errors": {
+          "solver": "bounded_weight_and_fixed_chord_lstsq",
+          "converged": true,
+          "scope": "owning_boundary",
+          "sampled_hausdorff": 1.9387424317197588,
+          "rms": 0.486890827273916,
+          "hausdorff_upper_bound": 2.363742441719759,
+          "forward_max": 1.9387424317197588,
+          "backward_max": 1.6460458028504945
+        },
+        "tolerances": {
+          "flatten": 0.05,
+          "sample_spacing": 0.75,
+          "join": 1e-07,
+          "floating_margin": 1e-08
+        }
+      },
+      {
+        "kind": "line",
+        "params": {
+          "a": [
+            200.0,
+            217.671875
+          ],
+          "b": [
+            200.0,
+            237.59375
+          ]
+        },
+        "interval": [
+          0.0,
+          1.0
+        ],
+        "start": [
+          200.0,
+          217.671875
+        ],
+        "end": [
+          200.0,
+          237.59375
+        ],
+        "boundary_id": 0,
+        "component_id": 0,
+        "transform": "normalization.source_to_working",
+        "errors": {
+          "scope": "owning_boundary",
+          "sampled_hausdorff": 1.9387424317197588,
+          "rms": 0.486890827273916,
+          "hausdorff_upper_bound": 2.363742441719759,
+          "forward_max": 1.9387424317197588,
+          "backward_max": 1.6460458028504945
+        },
+        "tolerances": {
+          "flatten": 0.05,
+          "sample_spacing": 0.75,
+          "join": 1e-07,
+          "floating_margin": 1e-08
+        }
+      },
+      {
+        "kind": "line",
+        "params": {
+          "a": [
+            200.0,
+            237.59375
+          ],
+          "b": [
+            200.0,
+            277.4375
+          ]
+        },
+        "interval": [
+          0.0,
+          1.0
+        ],
+        "start": [
+          200.0,
+          237.59375
+        ],
+        "end": [
+          200.0,
+          277.4375
+        ],
+        "boundary_id": 0,
+        "component_id": 0,
+        "transform": "normalization.source_to_working",
+        "errors": {
+          "scope": "owning_boundary",
+          "sampled_hausdorff": 1.9387424317197588,
+          "rms": 0.486890827273916,
+          "hausdorff_upper_bound": 2.363742441719759,
+          "forward_max": 1.9387424317197588,
+          "backward_max": 1.6460458028504945
+        },
+        "tolerances": {
+          "flatten": 0.05,
+          "sample_spacing": 0.75,
+          "join": 1e-07,
+          "floating_margin": 1e-08
+        }
+      },
+      {
+        "kind": "line",
+        "params": {
+          "a": [
+            200.0,
+            277.4375
+          ],
+          "b": [
+            200.0,
+            357.1249999999998
+          ]
+        },
+        "interval": [
+          0.0,
+          1.0
+        ],
+        "start": [
+          200.0,
+          277.4375
+        ],
+        "end": [
+          200.0,
+          357.1249999999998
+        ],
+        "boundary_id": 0,
+        "component_id": 0,
+        "transform": "normalization.source_to_working",
+        "errors": {
+          "scope": "owning_boundary",
+          "sampled_hausdorff": 1.9387424317197588,
+          "rms": 0.486890827273916,
+          "hausdorff_upper_bound": 2.363742441719759,
+          "forward_max": 1.9387424317197588,
+          "backward_max": 1.6460458028504945
+        },
+        "tolerances": {
+          "flatten": 0.05,
+          "sample_spacing": 0.75,
+          "join": 1e-07,
+          "floating_margin": 1e-08
+        }
+      },
+      {
+        "kind": "line",
+        "params": {
+          "a": [
+            200.0,
+            357.1249999999998
+          ],
+          "b": [
+            200.0,
+            516.4999999999998
+          ]
+        },
+        "interval": [
+          0.0,
+          1.0
+        ],
+        "start": [
+          200.0,
+          357.1249999999998
+        ],
+        "end": [
+          200.0,
+          516.4999999999998
+        ],
+        "boundary_id": 0,
+        "component_id": 0,
+        "transform": "normalization.source_to_working",
+        "errors": {
+          "scope": "owning_boundary",
+          "sampled_hausdorff": 1.9387424317197588,
+          "rms": 0.486890827273916,
+          "hausdorff_upper_bound": 2.363742441719759,
+          "forward_max": 1.9387424317197588,
+          "backward_max": 1.6460458028504945
+        },
+        "tolerances": {
+          "flatten": 0.05,
+          "sample_spacing": 0.75,
+          "join": 1e-07,
+          "floating_margin": 1e-08
+        }
+      },
+      {
+        "kind": "bezier",
+        "params": {
+          "controls": [
+            [
+              200.0,
+              516.4999999999998
+            ],
+            [
+              203.42692128865482,
+              609.3262918085234
+            ],
+            [
+              181.08965148437886,
+              714.6149107556777
+            ],
+            [
+              252.0,
+              783.25
+            ]
+          ]
+        },
+        "interval": [
+          0.0,
+          1.0
+        ],
+        "start": [
+          200.0,
+          516.4999999999998
+        ],
+        "end": [
+          252.0,
+          783.25
+        ],
+        "boundary_id": 0,
+        "component_id": 0,
+        "transform": "normalization.source_to_working",
+        "errors": {
+          "fitting_rank": 2,
+          "fitting_condition": 2.5985240493675708,
+          "solver": "chord_parameter_linear_least_squares",
+          "scope": "owning_boundary",
+          "sampled_hausdorff": 1.9387424317197588,
+          "rms": 0.486890827273916,
+          "hausdorff_upper_bound": 2.363742441719759,
+          "forward_max": 1.9387424317197588,
+          "backward_max": 1.6460458028504945
+        },
+        "tolerances": {
+          "flatten": 0.05,
+          "sample_spacing": 0.75,
+          "join": 1e-07,
+          "floating_margin": 1e-08
+        }
+      },
+      {
+        "kind": "bezier",
+        "params": {
+          "controls": [
+            [
+              252.0,
+              783.25
+            ],
+            [
+              312.1411649320015,
+              846.671121361372
+            ],
+            [
+              395.65893201875906,
+              868.8689799496542
+            ],
+            [
+              479.0,
+              875.0
+            ]
+          ]
+        },
+        "interval": [
+          0.0,
+          1.0
+        ],
+        "start": [
+          252.0,
+          783.25
+        ],
+        "end": [
+          479.0,
+          875.0
+        ],
+        "boundary_id": 0,
+        "component_id": 0,
+        "transform": "normalization.source_to_working",
+        "errors": {
+          "fitting_rank": 2,
+          "fitting_condition": 2.651546124716646,
+          "solver": "chord_parameter_linear_least_squares",
+          "scope": "owning_boundary",
+          "sampled_hausdorff": 1.9387424317197588,
+          "rms": 0.486890827273916,
+          "hausdorff_upper_bound": 2.363742441719759,
+          "forward_max": 1.9387424317197588,
+          "backward_max": 1.6460458028504945
+        },
+        "tolerances": {
+          "flatten": 0.05,
+          "sample_spacing": 0.75,
+          "join": 1e-07,
+          "floating_margin": 1e-08
+        }
+      }
+    ],
+    "equations": [
+      "r(t)=((1-u)² A+2u(1-u)V+u² B)/((1-u)²+2w*u(1-u)+u²); u=(t-a)/(b-a); A=[479.0, 875.0]; B=[726.75, 804.0]; s=-0.17626965539339773; J=(-(B_y-A_y),B_x-A_x); w=(1-s²)/(1+s²); V=w(A+B)/2-s*J/(1+s²); 0<=t<=1; yön 0 -> 1",
+      "r(t)=sum[k=0..3] binom(3,k)(1-u)^(3-k)u^k P_k; u=(t-a)/(b-a); P=(726.75, 804), (804.10646420278931, 746.08192068950609), (804.45966251136883, 649.03460862925931), (800, 558.5); 0<=t<=1; yön 0 -> 1",
+      "r(t)=(800, 558.5)+(t-(0))/(1)*(0, -318.74999999999989); 0<=t<=1; yön 0 -> 1",
+      "r(t)=(800, 239.75000000000011)+(t-(0))/(1)*(-0.093749999999886313, -39.750000000000114); 0<=t<=1; yön 0 -> 1",
+      "r(t)=(799.90625000000011, 200)+(t-(0))/(1)*(-39.843750000000114, 0); 0<=t<=1; yön 0 -> 1",
+      "r(t)=(760.0625, 200)+(t-(0))/(1)*(-79.6875, 0); 0<=t<=1; yön 0 -> 1",
+      "r(t)=(680.375, 200)+(t-(0))/(1)*(-159.375, 0); 0<=t<=1; yön 0 -> 1",
+      "r(t)=(521, 200)+(t-(0))/(1)*(-318.75, 0); 0<=t<=1; yön 0 -> 1",
+      "r(t)=((1-u)² A+2u(1-u)V+u² B)/((1-u)²+2w*u(1-u)+u²); u=(t-a)/(b-a); A,P,B=[[202.25, 200.0], [197.69620674504236, 205.45730976279572], [200.0, 217.671875]]; w=0.71694618124159215; V=w*P; 0<=t<=1; yön 0 -> 1",
+      "r(t)=(200, 217.671875)+(t-(0))/(1)*(0, 19.921875); 0<=t<=1; yön 0 -> 1",
+      "r(t)=(200, 237.59375)+(t-(0))/(1)*(0, 39.84375); 0<=t<=1; yön 0 -> 1",
+      "r(t)=(200, 277.4375)+(t-(0))/(1)*(0, 79.687499999999773); 0<=t<=1; yön 0 -> 1",
+      "r(t)=(200, 357.12499999999977)+(t-(0))/(1)*(0, 159.375); 0<=t<=1; yön 0 -> 1",
+      "r(t)=sum[k=0..3] binom(3,k)(1-u)^(3-k)u^k P_k; u=(t-a)/(b-a); P=(200, 516.49999999999977), (203.42692128865482, 609.32629180852337), (181.08965148437886, 714.61491075567767), (252, 783.25); 0<=t<=1; yön 0 -> 1",
+      "r(t)=sum[k=0..3] binom(3,k)(1-u)^(3-k)u^k P_k; u=(t-a)/(b-a); P=(252, 783.25), (312.14116493200152, 846.671121361372), (395.65893201875906, 868.8689799496542), (479, 875); 0<=t<=1; yön 0 -> 1"
+    ],
+    "complexity": {
+      "score_bits": 7384,
+      "piece_count": 15,
+      "free_parameters_upper": 76,
+      "stored_real_count": 106,
+      "stored_integer_count": 15,
+      "control_points": 18,
+      "knots": 0,
+      "max_degree": 3,
+      "degree_note": "Çember/elips: örtük derece; Fourier: 0 polinom dışı anlamındadır, harmonik sayısı katsayılardan bilinir; diğerleri: parametrik polinom derecesi.",
+      "interval_constraints": 15,
+      "encoding": "fixed64_v1",
+      "parameter_count_note": "Paylaşılan uç/periodiklik kısıtları düşülmemiş üst sayım."
+    },
+    "metrics": {
+      "sampled_hausdorff": 1.9387424317197588,
+      "hausdorff_upper_bound": 2.363742441719759,
+      "bound_kind": "Lipschitz_sampling_plus_curve_bound_float64",
+      "verified_numerical_certificate": true,
+      "distance_backend": "GEOS_STRtree_segments",
+      "evaluation_workers": 1,
+      "reference_cache_reused": false,
+      "rms": 0.486890827273916,
+      "area_difference": 79.35545098083094,
+      "area_reference": 378006.0,
+      "area_model_polygonized": 378085.35545098083,
+      "area_curve_uncertainty_bound": 233.50903219807284,
+      "sample_count": 6909,
+      "max_sample_gap": 0.75,
+      "flatten_tolerance": 0.05,
+      "topology": {
+        "preserved": true,
+        "reasons": [],
+        "scope": "polygonized_with_inter_ring_clearance",
+        "analytic_isotopy_proven": true,
+        "component_count": 1,
+        "hole_count": 0
+      },
+      "join_max_gap": 0.0,
+      "join_max_tangent_angle_degrees": 89.86486869509937,
+      "tangent_continuity_required": false,
+      "per_boundary": {
+        "0": {
+          "sampled_hausdorff": 1.9387424317197588,
+          "rms": 0.486890827273916,
+          "hausdorff_upper_bound": 2.363742441719759,
+          "forward_max": 1.9387424317197588,
+          "backward_max": 1.6460458028504945
+        }
+      },
+      "elapsed_seconds": 0.06540900000072725,
+      "certification": {
+        "certificate_version": "1.3",
+        "arithmetic": "outward_binary64_intervals_and_exact_rationals",
+        "coefficient_semantics": "stored binary64 values interpreted as exact dyadic rationals",
+        "verified_numerical_certificate": true,
+        "analytic_isotopy_proven": true,
+        "status": "proven",
+        "reasons": [],
+        "spline_conversion": "exact_rational_de_Boor_Hermite",
+        "rational_arc_semantics": "positive homogeneous quadratic Bernstein; exact shared dyadic endpoints",
+        "full_conic_semantics": "canonical full-turn interval; exact symbolic 2*pi phase, dyadic radii and rotation angle",
+        "hausdorff_upper_bound": 2.1815457342942555,
+        "within_tolerance": true,
+        "curve_to_polygon_bound": 0.024968156579698093,
+        "sample_spacing": 0.5,
+        "topology_method": "rational_monotone_Bernstein_hulls_and_exact_Jordan_nesting"
+      }
+    }
+  },
+  "topology": {
+    "rings": [
+      {
+        "id": 0,
+        "kind": "outer",
+        "parent_id": null,
+        "component_id": 0,
+        "closed": true
+      }
+    ],
+    "component_count": 1,
+    "hole_count": 0,
+    "contacts": [],
+    "connectivity": "foreground_4_neighbors"
+  },
+  "normalization": {
+    "raw_source_size": [
+      1000,
+      1000
+    ],
+    "exif_orientation": 1,
+    "exif_applied": false,
+    "source_size": [
+      1000,
+      1000
+    ],
+    "canvas_size": [
+      1000,
+      1000
+    ],
+    "resized_size": [
+      1000,
+      1000
+    ],
+    "scale_x": 1.0,
+    "scale_y": 1.0,
+    "offset_top_left": [
+      0,
+      0
+    ],
+    "coordinate_domain": [
+      0,
+      1000
+    ],
+    "coordinate_convention": "x sağa, y yukarı; piksel (r,c) = [c,c+1] × [999-r,1000-r]",
+    "foreground_pixels": 378006,
+    "resampling": "threshold_then_nearest",
+    "threshold_method": "global_inclusive",
+    "threshold": 127,
+    "pixel_geometry": "unit_square_edges",
+    "source_transform_applies_to": "EXIF-oriented continuous pixel edges",
+    "source_to_working": [
+      [
+        1.0,
+        0,
+        0
+      ],
+      [
+        0,
+        -1.0,
+        1000
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "working_to_source": [
+      [
+        1.0,
+        0,
+        0.0
+      ],
+      [
+        0,
+        -1.0,
+        1000.0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "source": {
+    "sha256": "33fc0e295d0c1d6a8359e74f885a2756f9be94a50f885dc87afa6c8239186b95",
+    "path": "D:\\Dev\\Personal\\sekilden-denkleme\\examples\\validation\\dataset\\corner_curve.png"
+  },
+  "implicit_polynomial": null,
+  "entity_mapping": [
+    {
+      "piece": 0,
+      "boundary": 0,
+      "native_curve": "arc",
+      "edge_count": 1,
+      "reversed": true,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "face_wire_reversed": true
+    },
+    {
+      "piece": 1,
+      "boundary": 0,
+      "native_curve": "bspline",
+      "edge_count": 1,
+      "reversed": false,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "face_wire_reversed": true
+    },
+    {
+      "piece": 2,
+      "boundary": 0,
+      "native_curve": "line",
+      "edge_count": 1,
+      "reversed": false,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "face_wire_reversed": true
+    },
+    {
+      "piece": 3,
+      "boundary": 0,
+      "native_curve": "line",
+      "edge_count": 1,
+      "reversed": false,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "face_wire_reversed": true
+    },
+    {
+      "piece": 4,
+      "boundary": 0,
+      "native_curve": "line",
+      "edge_count": 1,
+      "reversed": false,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "face_wire_reversed": true
+    },
+    {
+      "piece": 5,
+      "boundary": 0,
+      "native_curve": "line",
+      "edge_count": 1,
+      "reversed": false,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "face_wire_reversed": true
+    },
+    {
+      "piece": 6,
+      "boundary": 0,
+      "native_curve": "line",
+      "edge_count": 1,
+      "reversed": false,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "face_wire_reversed": true
+    },
+    {
+      "piece": 7,
+      "boundary": 0,
+      "native_curve": "line",
+      "edge_count": 1,
+      "reversed": false,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "face_wire_reversed": true
+    },
+    {
+      "piece": 8,
+      "boundary": 0,
+      "native_curve": "bspline",
+      "edge_count": 1,
+      "reversed": false,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "face_wire_reversed": true
+    },
+    {
+      "piece": 9,
+      "boundary": 0,
+      "native_curve": "line",
+      "edge_count": 1,
+      "reversed": false,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "face_wire_reversed": true
+    },
+    {
+      "piece": 10,
+      "boundary": 0,
+      "native_curve": "line",
+      "edge_count": 1,
+      "reversed": false,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "face_wire_reversed": true
+    },
+    {
+      "piece": 11,
+      "boundary": 0,
+      "native_curve": "line",
+      "edge_count": 1,
+      "reversed": false,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "face_wire_reversed": true
+    },
+    {
+      "piece": 12,
+      "boundary": 0,
+      "native_curve": "line",
+      "edge_count": 1,
+      "reversed": false,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "face_wire_reversed": true
+    },
+    {
+      "piece": 13,
+      "boundary": 0,
+      "native_curve": "bspline",
+      "edge_count": 1,
+      "reversed": false,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "face_wire_reversed": true
+    },
+    {
+      "piece": 14,
+      "boundary": 0,
+      "native_curve": "bspline",
+      "edge_count": 1,
+      "reversed": false,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "face_wire_reversed": true
+    }
+  ],
+  "native_curves": [
+    {
+      "kind": "arc",
+      "params": {
+        "center": [
+          50.53057963611519,
+          49.90384478658506
+        ],
+        "radius": 37.68807286202269,
+        "start": 0.9427425451198287,
+        "end": 1.6406518567564226
+      },
+      "source_piece": 0,
+      "boundary_id": 0,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "reversed": true
+    },
+    {
+      "kind": "bspline",
+      "params": {
+        "controls": [
+          [
+            72.675,
+            80.4
+          ],
+          [
+            80.41064642027894,
+            74.60819206895061
+          ],
+          [
+            80.4459662511369,
+            64.90346086292594
+          ],
+          [
+            80.0,
+            55.85
+          ]
+        ],
+        "degree": 3,
+        "knots": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "weights": null
+      },
+      "source_piece": 1,
+      "boundary_id": 0,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "reversed": false
+    },
+    {
+      "kind": "line",
+      "params": {
+        "a": [
+          80.0,
+          55.85
+        ],
+        "b": [
+          80.0,
+          23.975000000000012
+        ]
+      },
+      "source_piece": 2,
+      "boundary_id": 0,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "reversed": false
+    },
+    {
+      "kind": "line",
+      "params": {
+        "a": [
+          80.0,
+          23.975000000000012
+        ],
+        "b": [
+          79.99062500000002,
+          20.0
+        ]
+      },
+      "source_piece": 3,
+      "boundary_id": 0,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "reversed": false
+    },
+    {
+      "kind": "line",
+      "params": {
+        "a": [
+          79.99062500000002,
+          20.0
+        ],
+        "b": [
+          76.00625000000001,
+          20.0
+        ]
+      },
+      "source_piece": 4,
+      "boundary_id": 0,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "reversed": false
+    },
+    {
+      "kind": "line",
+      "params": {
+        "a": [
+          76.00625000000001,
+          20.0
+        ],
+        "b": [
+          68.03750000000001,
+          20.0
+        ]
+      },
+      "source_piece": 5,
+      "boundary_id": 0,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "reversed": false
+    },
+    {
+      "kind": "line",
+      "params": {
+        "a": [
+          68.03750000000001,
+          20.0
+        ],
+        "b": [
+          52.1,
+          20.0
+        ]
+      },
+      "source_piece": 6,
+      "boundary_id": 0,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "reversed": false
+    },
+    {
+      "kind": "line",
+      "params": {
+        "a": [
+          52.1,
+          20.0
+        ],
+        "b": [
+          20.225,
+          20.0
+        ]
+      },
+      "source_piece": 7,
+      "boundary_id": 0,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "reversed": false
+    },
+    {
+      "kind": "bspline",
+      "params": {
+        "controls": [
+          [
+            20.225,
+            20.0
+          ],
+          [
+            19.76962067450424,
+            20.54573097627957
+          ],
+          [
+            20.0,
+            21.767187500000002
+          ]
+        ],
+        "degree": 2,
+        "knots": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        "weights": [
+          1.0,
+          0.7169461812415922,
+          1.0
+        ]
+      },
+      "source_piece": 8,
+      "boundary_id": 0,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "reversed": false
+    },
+    {
+      "kind": "line",
+      "params": {
+        "a": [
+          20.0,
+          21.767187500000002
+        ],
+        "b": [
+          20.0,
+          23.759375000000002
+        ]
+      },
+      "source_piece": 9,
+      "boundary_id": 0,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "reversed": false
+    },
+    {
+      "kind": "line",
+      "params": {
+        "a": [
+          20.0,
+          23.759375000000002
+        ],
+        "b": [
+          20.0,
+          27.743750000000002
+        ]
+      },
+      "source_piece": 10,
+      "boundary_id": 0,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "reversed": false
+    },
+    {
+      "kind": "line",
+      "params": {
+        "a": [
+          20.0,
+          27.743750000000002
+        ],
+        "b": [
+          20.0,
+          35.71249999999998
+        ]
+      },
+      "source_piece": 11,
+      "boundary_id": 0,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "reversed": false
+    },
+    {
+      "kind": "line",
+      "params": {
+        "a": [
+          20.0,
+          35.71249999999998
+        ],
+        "b": [
+          20.0,
+          51.64999999999998
+        ]
+      },
+      "source_piece": 12,
+      "boundary_id": 0,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "reversed": false
+    },
+    {
+      "kind": "bspline",
+      "params": {
+        "controls": [
+          [
+            20.0,
+            51.64999999999998
+          ],
+          [
+            20.342692128865483,
+            60.93262918085234
+          ],
+          [
+            18.108965148437886,
+            71.46149107556776
+          ],
+          [
+            25.200000000000003,
+            78.325
+          ]
+        ],
+        "degree": 3,
+        "knots": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "weights": null
+      },
+      "source_piece": 13,
+      "boundary_id": 0,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "reversed": false
+    },
+    {
+      "kind": "bspline",
+      "params": {
+        "controls": [
+          [
+            25.200000000000003,
+            78.325
+          ],
+          [
+            31.21411649320015,
+            84.6671121361372
+          ],
+          [
+            39.56589320187591,
+            86.88689799496542
+          ],
+          [
+            47.900000000000006,
+            87.5
+          ]
+        ],
+        "degree": 3,
+        "knots": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "weights": null
+      },
+      "source_piece": 14,
+      "boundary_id": 0,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "reversed": false
+    }
+  ],
+  "cad_complexity": {
+    "native_curve_count": 15,
+    "native_control_points": 15,
+    "polyline_vertices": 0,
+    "reader_edge_or_entity_count": 15,
+    "cad_file_bytes": 6075,
+    "source_model_score_bits": 7384
+  },
+  "approximated_source_pieces": [],
+  "reader": {
+    "reader": "Open CASCADE/OCP",
+    "reader_version": "7.9.3.1",
+    "edge_count": 15,
+    "wire_count": 1,
+    "max_join_gap": 1.53894823301491e-10,
+    "internal_reader_unit": "mm"
+  },
+  "transfer_validation": {
+    "method": "bidirectional_finite_segment_convex_witness_cover_float64",
+    "transfer_upper_estimate": 0.009715662633151751,
+    "tolerance": 0.01,
+    "unit": "mm",
+    "curve_polygon_budget_each": 0.00125,
+    "numeric_margin": 1e-10,
+    "witness_segments": 1074,
+    "boundary_count": 1,
+    "polygon_nesting_preserved": true,
+    "max_closure_gap": 1.53894823301491e-10,
+    "max_abs_z": 0.0,
+    "join_margin": 1.53894823301491e-10,
+    "reference_closure_roundoff": 0.0,
+    "verified_numerical_certificate": false,
+    "analytic_isotopy_proven_for_cad_file": false,
+    "scope": "CAD okuyucusundan tekrar alınan geometri; float64 kontrollü poligonlar. Kaynak model sertifikasından ayrıdır."
+  },
+  "physical_error_summary": {
+    "unit": "mm",
+    "source_verified_upper_scaled": 0.21815457342942557,
+    "cad_transfer_upper_estimate": 0.009715662633151751,
+    "combined_pixel_boundary_upper_estimate": 0.2278702360625773,
+    "combined_verified_numerical_certificate": false,
+    "ideal_object_error_known": false
+  },
+  "original_model_certificate_scope": "source model and normalized pixel reference; does not certify the CAD file"
+}

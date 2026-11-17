@@ -1,0 +1,84 @@
+{
+ "icons": 2050,
+ "failed": 0,
+ "icon_scale": 0.96,
+ "icons_with_changed_topology": 7,
+ "large": [
+  {
+   "id": "terrain_2048",
+   "scale": 0.46875,
+   "native": {
+    "components": 9,
+    "holes": 4,
+    "contacts": 0,
+    "rings": 13,
+    "edges": 19952
+   },
+   "canvas": {
+    "components": 9,
+    "holes": 4,
+    "contacts": 0,
+    "rings": 13,
+    "edges": 9282
+   },
+   "topology_changed": false
+  },
+  {
+   "id": "terrain_4096",
+   "scale": 0.234375,
+   "native": {
+    "components": 52,
+    "holes": 30,
+    "contacts": 0,
+    "rings": 82,
+    "edges": 90432
+   },
+   "canvas": {
+    "components": 53,
+    "holes": 30,
+    "contacts": 1,
+    "rings": 83,
+    "edges": 21170
+   },
+   "topology_changed": true
+  },
+  {
+   "id": "drawing_2048",
+   "scale": 0.46875,
+   "native": {
+    "components": 64,
+    "holes": 57,
+    "contacts": 2,
+    "rings": 121,
+    "edges": 38942
+   },
+   "canvas": {
+    "components": 145,
+    "holes": 51,
+    "contacts": 86,
+    "rings": 196,
+    "edges": 18132
+   },
+   "topology_changed": true
+  },
+  {
+   "id": "drawing_4096",
+   "scale": 0.234375,
+   "native": {
+    "components": 256,
+    "holes": 216,
+    "contacts": 9,
+    "rings": 472,
+    "edges": 156730
+   },
+   "canvas": {
+    "components": 2961,
+    "holes": 68,
+    "contacts": 2157,
+    "rings": 3029,
+    "edges": 36436
+   },
+   "topology_changed": true
+  }
+ ]
+}

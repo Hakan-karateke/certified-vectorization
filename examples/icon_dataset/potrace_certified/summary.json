@@ -1,0 +1,16 @@
+{
+ "inputs": 2050,
+ "failed": 0,
+ "ring_count_mismatch": 29,
+ "error_bound_certified": 2021,
+ "median_certified_upper_bound": 1.551776064089965,
+ "max_certified_upper_bound": 685.0215637073776,
+ "topology_proven": 1973,
+ "topology_undetermined_with_contacts": 4,
+ "median_certify_seconds": 2.9811440000194125,
+ "median_potrace_seconds": 0.027282350027235225,
+ "proven_within_1": 4,
+ "proven_within_2": 1859,
+ "proven_within_3": 1950,
+ "proven_within_5": 1956
+}

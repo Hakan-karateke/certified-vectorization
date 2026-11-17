@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "recorded_at": "2026-10-15T16:57:47.231150+00:00",
+  "kind": "software_compatibility_check",
+  "product": "FreeCAD",
+  "executable": "D:\\Dev\\Personal\\sekilden-denkleme\\.tmp\\freecad\\FreeCAD_1.1.4-Windows-x86_64-py311\\bin\\freecadcmd.exe",
+  "cad_sha256": "34ca5fe579f2b9089038d093b022a68ed50a1323e0ec4cb57d07aa7dd405c607",
+  "cad_file": "D:\\Dev\\Personal\\sekilden-denkleme\\examples\\cad_validation\\components\\reconstruction.iges",
+  "format": "iges",
+  "source_application_version": "2.4.0",
+  "process_returncode": 0,
+  "measured": {
+    "status": "failed",
+    "reason": "FreeCAD içe alıcısı geometri oluşturmadı.",
+    "traceback": "Traceback (most recent call last):\n  File \"D:\\Dev/Personal/sekilden-denkleme/src/sekilden_denkleme\\freecad_worker.py\", line 199, in main\n    result = run(request)\n             ^^^^^^^^^^^^\n  File \"D:\\Dev/Personal/sekilden-denkleme/src/sekilden_denkleme\\freecad_worker.py\", line 53, in run\n    raise ValueError(\"FreeCAD içe alıcısı geometri oluşturmadı.\")\nValueError: FreeCAD içe alıcısı geometri oluşturmadı.\n",
+    "observations": {
+      "objects": []
+    }
+  },
+  "evaluation": {
+    "status": "failed",
+    "reason": "FreeCAD içe alıcısı geometri oluşturmadı."
+  }
+}

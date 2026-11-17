@@ -1,0 +1,258 @@
+[
+ {
+  "size": 2048,
+  "levels": 6,
+  "epsilon": 1.0,
+  "family": "polygon",
+  "layers": [
+   {
+    "epsilon": 1.0,
+    "pixels": 4194304,
+    "rings": 34,
+    "reference_edges": 13614,
+    "largest_ring_edges": 2054,
+    "contacts": 0,
+    "trace_seconds": 0.7158084999537095,
+    "topology_seconds": 0.07742719998350367,
+    "polygon": {
+     "pieces": 1086,
+     "arcs": 0,
+     "optimal_in_class": true,
+     "search_seconds": 10.255346000019927,
+     "certify_seconds": 5.859405800001696,
+     "certificate_status": "proven",
+     "certified_upper_bound": 0.9997149873202553,
+     "topology_method": "rational_monotone_Bernstein_hulls_and_exact_Jordan_nesting",
+     "certificate_reasons": []
+    },
+    "layer": 1
+   },
+   {
+    "epsilon": 1.0,
+    "pixels": 4194304,
+    "rings": 22,
+    "reference_edges": 19872,
+    "largest_ring_edges": 5160,
+    "contacts": 0,
+    "trace_seconds": 0.5215610999730416,
+    "topology_seconds": 0.061931599979288876,
+    "polygon": {
+     "pieces": 1403,
+     "arcs": 0,
+     "optimal_in_class": true,
+     "search_seconds": 3.6836568000144325,
+     "certify_seconds": 4.933074000000488,
+     "certificate_status": "proven",
+     "certified_upper_bound": 0.9999250606362444,
+     "topology_method": "rational_monotone_Bernstein_hulls_and_exact_Jordan_nesting",
+     "certificate_reasons": []
+    },
+    "layer": 2
+   },
+   {
+    "epsilon": 1.0,
+    "pixels": 4194304,
+    "rings": 13,
+    "reference_edges": 19952,
+    "largest_ring_edges": 12478,
+    "contacts": 0,
+    "trace_seconds": 0.4103743000305258,
+    "topology_seconds": 0.024940099974628538,
+    "polygon": {
+     "pieces": 1396,
+     "arcs": 0,
+     "optimal_in_class": true,
+     "search_seconds": 3.0707211999688298,
+     "certify_seconds": 4.277671699994244,
+     "certificate_status": "proven",
+     "certified_upper_bound": 0.9999276818588959,
+     "topology_method": "rational_monotone_Bernstein_hulls_and_exact_Jordan_nesting",
+     "certificate_reasons": []
+    },
+    "layer": 3
+   },
+   {
+    "epsilon": 1.0,
+    "pixels": 4194304,
+    "rings": 31,
+    "reference_edges": 19502,
+    "largest_ring_edges": 2302,
+    "contacts": 0,
+    "trace_seconds": 0.37116989999776706,
+    "topology_seconds": 0.0317407000111416,
+    "polygon": {
+     "pieces": 1399,
+     "arcs": 0,
+     "optimal_in_class": true,
+     "search_seconds": 3.5404736999771558,
+     "certify_seconds": 4.5985341999912634,
+     "certificate_status": "proven",
+     "certified_upper_bound": 0.9998487955980073,
+     "topology_method": "rational_monotone_Bernstein_hulls_and_exact_Jordan_nesting",
+     "certificate_reasons": []
+    },
+    "layer": 4
+   },
+   {
+    "epsilon": 1.0,
+    "pixels": 4194304,
+    "rings": 38,
+    "reference_edges": 15070,
+    "largest_ring_edges": 1392,
+    "contacts": 0,
+    "trace_seconds": 0.33353549998719245,
+    "topology_seconds": 0.02500949997920543,
+    "polygon": {
+     "pieces": 1074,
+     "arcs": 0,
+     "optimal_in_class": true,
+     "search_seconds": 2.7972870000521652,
+     "certify_seconds": 3.8828700000303797,
+     "certificate_status": "proven",
+     "certified_upper_bound": 0.9997547396341586,
+     "topology_method": "rational_monotone_Bernstein_hulls_and_exact_Jordan_nesting",
+     "certificate_reasons": []
+    },
+    "layer": 5
+   }
+  ],
+  "pieces": 6358,
+  "reference_edges": 88010,
+  "all_layers_proven": true,
+  "all_layers_optimal_in_class": true,
+  "search_seconds": 23.34748470003251,
+  "certify_seconds": 23.55155570001807,
+  "mismatched_pixels": 25738,
+  "mismatched_fraction": 0.006136417388916016,
+  "max_mismatch_distance_to_boundary": 0.5154189341111172,
+  "render_seconds": 53.34823920001509
+ },
+ {
+  "size": 2048,
+  "levels": 6,
+  "epsilon": 2.0,
+  "family": "polygon",
+  "layers": [
+   {
+    "epsilon": 2.0,
+    "pixels": 4194304,
+    "rings": 34,
+    "reference_edges": 13614,
+    "largest_ring_edges": 2054,
+    "contacts": 0,
+    "trace_seconds": 0.3253753999597393,
+    "topology_seconds": 0.02460220002103597,
+    "polygon": {
+     "pieces": 624,
+     "arcs": 0,
+     "optimal_in_class": true,
+     "search_seconds": 3.845315999991726,
+     "certify_seconds": 3.140447399986442,
+     "certificate_status": "proven",
+     "certified_upper_bound": 1.9999111407847532,
+     "topology_method": "rational_monotone_Bernstein_hulls_and_exact_Jordan_nesting",
+     "certificate_reasons": []
+    },
+    "layer": 1
+   },
+   {
+    "epsilon": 2.0,
+    "pixels": 4194304,
+    "rings": 22,
+    "reference_edges": 19872,
+    "largest_ring_edges": 5160,
+    "contacts": 0,
+    "trace_seconds": 0.470846000011079,
+    "topology_seconds": 0.10315050004282966,
+    "polygon": {
+     "pieces": 782,
+     "arcs": 0,
+     "optimal_in_class": true,
+     "search_seconds": 4.553485999989789,
+     "certify_seconds": 4.06187500001397,
+     "certificate_status": "proven",
+     "certified_upper_bound": 1.9998469564373043,
+     "topology_method": "rational_monotone_Bernstein_hulls_and_exact_Jordan_nesting",
+     "certificate_reasons": []
+    },
+    "layer": 2
+   },
+   {
+    "epsilon": 2.0,
+    "pixels": 4194304,
+    "rings": 13,
+    "reference_edges": 19952,
+    "largest_ring_edges": 12478,
+    "contacts": 0,
+    "trace_seconds": 0.3650577000225894,
+    "topology_seconds": 0.029597399989143014,
+    "polygon": {
+     "pieces": 779,
+     "arcs": 0,
+     "optimal_in_class": true,
+     "search_seconds": 4.1096112000523135,
+     "certify_seconds": 3.597993100003805,
+     "certificate_status": "proven",
+     "certified_upper_bound": 1.9992796230799568,
+     "topology_method": "rational_monotone_Bernstein_hulls_and_exact_Jordan_nesting",
+     "certificate_reasons": []
+    },
+    "layer": 3
+   },
+   {
+    "epsilon": 2.0,
+    "pixels": 4194304,
+    "rings": 31,
+    "reference_edges": 19502,
+    "largest_ring_edges": 2302,
+    "contacts": 0,
+    "trace_seconds": 0.28005950001534075,
+    "topology_seconds": 0.0824690000154078,
+    "polygon": {
+     "pieces": 789,
+     "arcs": 0,
+     "optimal_in_class": true,
+     "search_seconds": 4.920154999999795,
+     "certify_seconds": 3.6231371000176296,
+     "certificate_status": "proven",
+     "certified_upper_bound": 1.9991300281218423,
+     "topology_method": "rational_monotone_Bernstein_hulls_and_exact_Jordan_nesting",
+     "certificate_reasons": []
+    },
+    "layer": 4
+   },
+   {
+    "epsilon": 2.0,
+    "pixels": 4194304,
+    "rings": 38,
+    "reference_edges": 15070,
+    "largest_ring_edges": 1392,
+    "contacts": 0,
+    "trace_seconds": 0.288912900025025,
+    "topology_seconds": 0.021778599999379367,
+    "polygon": {
+     "pieces": 616,
+     "arcs": 0,
+     "optimal_in_class": true,
+     "search_seconds": 3.514532299945131,
+     "certify_seconds": 2.3971954000298865,
+     "certificate_status": "proven",
+     "certified_upper_bound": 1.9998677825007947,
+     "topology_method": "rational_monotone_Bernstein_hulls_and_exact_Jordan_nesting",
+     "certificate_reasons": []
+    },
+    "layer": 5
+   }
+  ],
+  "pieces": 3590,
+  "reference_edges": 88010,
+  "all_layers_proven": true,
+  "all_layers_optimal_in_class": true,
+  "search_seconds": 20.943100499978755,
+  "certify_seconds": 16.820648000051733,
+  "mismatched_pixels": 77876,
+  "mismatched_fraction": 0.01856708526611328,
+  "max_mismatch_distance_to_boundary": 1.5052033682900081,
+  "render_seconds": 38.096181600005366
+ }
+]

@@ -1,0 +1,190 @@
+{
+  "coordinate_system": "working_1000_y_up",
+  "rasterization": "pixel_center_contains",
+  "curve_flatten_bound": 0.01,
+  "noise_seed": null,
+  "pieces": [
+    [
+      {
+        "kind": "line",
+        "params": {
+          "a": [
+            160,
+            230
+          ],
+          "b": [
+            180,
+            710
+          ]
+        },
+        "interval": [
+          0.0,
+          1.0
+        ],
+        "start": [
+          160.0,
+          230.0
+        ],
+        "end": [
+          180.0,
+          710.0
+        ],
+        "boundary_id": 0,
+        "component_id": 0,
+        "transform": "normalization.source_to_working",
+        "errors": {},
+        "tolerances": {}
+      },
+      {
+        "kind": "line",
+        "params": {
+          "a": [
+            180,
+            710
+          ],
+          "b": [
+            430,
+            850
+          ]
+        },
+        "interval": [
+          0.0,
+          1.0
+        ],
+        "start": [
+          180.0,
+          710.0
+        ],
+        "end": [
+          430.0,
+          850.0
+        ],
+        "boundary_id": 0,
+        "component_id": 0,
+        "transform": "normalization.source_to_working",
+        "errors": {},
+        "tolerances": {}
+      },
+      {
+        "kind": "line",
+        "params": {
+          "a": [
+            430,
+            850
+          ],
+          "b": [
+            800,
+            720
+          ]
+        },
+        "interval": [
+          0.0,
+          1.0
+        ],
+        "start": [
+          430.0,
+          850.0
+        ],
+        "end": [
+          800.0,
+          720.0
+        ],
+        "boundary_id": 0,
+        "component_id": 0,
+        "transform": "normalization.source_to_working",
+        "errors": {},
+        "tolerances": {}
+      },
+      {
+        "kind": "line",
+        "params": {
+          "a": [
+            800,
+            720
+          ],
+          "b": [
+            730,
+            210
+          ]
+        },
+        "interval": [
+          0.0,
+          1.0
+        ],
+        "start": [
+          800.0,
+          720.0
+        ],
+        "end": [
+          730.0,
+          210.0
+        ],
+        "boundary_id": 0,
+        "component_id": 0,
+        "transform": "normalization.source_to_working",
+        "errors": {},
+        "tolerances": {}
+      },
+      {
+        "kind": "line",
+        "params": {
+          "a": [
+            730,
+            210
+          ],
+          "b": [
+            420,
+            370
+          ]
+        },
+        "interval": [
+          0.0,
+          1.0
+        ],
+        "start": [
+          730.0,
+          210.0
+        ],
+        "end": [
+          420.0,
+          370.0
+        ],
+        "boundary_id": 0,
+        "component_id": 0,
+        "transform": "normalization.source_to_working",
+        "errors": {},
+        "tolerances": {}
+      },
+      {
+        "kind": "line",
+        "params": {
+          "a": [
+            420,
+            370
+          ],
+          "b": [
+            160,
+            230
+          ]
+        },
+        "interval": [
+          0.0,
+          1.0
+        ],
+        "start": [
+          420.0,
+          370.0
+        ],
+        "end": [
+          160.0,
+          230.0
+        ],
+        "boundary_id": 0,
+        "component_id": 0,
+        "transform": "normalization.source_to_working",
+        "errors": {},
+        "tolerances": {}
+      }
+    ]
+  ]
+}

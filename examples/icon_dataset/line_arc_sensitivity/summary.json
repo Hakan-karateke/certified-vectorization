@@ -1,0 +1,174 @@
+[
+ {
+  "epsilon": 1,
+  "cases": 80,
+  "failed": 0,
+  "baseline": {
+   "median_size": 37.5,
+   "total_size": 3040,
+   "optimal_in_class": 80,
+   "median_seconds": 131.15470289997756,
+   "total_seconds": 15475.699893000012
+  },
+  "span_256": {
+   "median_size": 46.0,
+   "total_size": 3696,
+   "optimal_in_class": 80,
+   "median_seconds": 90.13274304996594,
+   "total_seconds": 8567.463788200228
+  },
+  "span_1024": {
+   "median_size": 33.0,
+   "total_size": 2877,
+   "optimal_in_class": 80,
+   "median_seconds": 202.9573173999961,
+   "total_seconds": 24463.32758079999
+  },
+  "beta_0.9": {
+   "median_size": 37.5,
+   "total_size": 3053,
+   "optimal_in_class": 80,
+   "median_seconds": 129.77395010000328,
+   "total_seconds": 13165.980062399816
+  },
+  "smoothing": {
+   "joints": 3040,
+   "soft_joints": 2295,
+   "smooth_before": 1097,
+   "smooth_after": 1121,
+   "mean_soft_kink_before_degrees": 6.290607955457579,
+   "mean_soft_kink_after_degrees": 6.076933095040133,
+   "changed_arcs": 1861,
+   "proven_after_smoothing": 80
+  }
+ },
+ {
+  "epsilon": 2,
+  "cases": 80,
+  "failed": 0,
+  "baseline": {
+   "median_size": 32.5,
+   "total_size": 2671,
+   "optimal_in_class": 80,
+   "median_seconds": 45.60900700002094,
+   "total_seconds": 4431.240233599907
+  },
+  "span_256": {
+   "median_size": 40.0,
+   "total_size": 3364,
+   "optimal_in_class": 80,
+   "median_seconds": 18.772299150004983,
+   "total_seconds": 1639.871657700045
+  },
+  "span_1024": {
+   "median_size": 26.0,
+   "total_size": 2458,
+   "optimal_in_class": 80,
+   "median_seconds": 101.77355270000407,
+   "total_seconds": 9945.293734700128
+  },
+  "beta_0.9": {
+   "median_size": 32.5,
+   "total_size": 2673,
+   "optimal_in_class": 80,
+   "median_seconds": 42.914624099998036,
+   "total_seconds": 3555.3045846996247
+  },
+  "smoothing": {
+   "joints": 2671,
+   "soft_joints": 1891,
+   "smooth_before": 498,
+   "smooth_after": 530,
+   "mean_soft_kink_before_degrees": 11.888493138114717,
+   "mean_soft_kink_after_degrees": 11.55080939146939,
+   "changed_arcs": 1651,
+   "proven_after_smoothing": 80
+  }
+ },
+ {
+  "epsilon": 3,
+  "cases": 80,
+  "failed": 0,
+  "baseline": {
+   "median_size": 31.0,
+   "total_size": 2544,
+   "optimal_in_class": 80,
+   "median_seconds": 40.63380350000807,
+   "total_seconds": 4057.016183899832
+  },
+  "span_256": {
+   "median_size": 39.0,
+   "total_size": 3252,
+   "optimal_in_class": 80,
+   "median_seconds": 16.27926804998424,
+   "total_seconds": 1366.4883216997841
+  },
+  "span_1024": {
+   "median_size": 26.0,
+   "total_size": 2320,
+   "optimal_in_class": 80,
+   "median_seconds": 102.02579705000971,
+   "total_seconds": 8870.978049399971
+  },
+  "beta_0.9": {
+   "median_size": 31.0,
+   "total_size": 2544,
+   "optimal_in_class": 80,
+   "median_seconds": 37.942510399996536,
+   "total_seconds": 3122.6452718997025
+  },
+  "smoothing": {
+   "joints": 2544,
+   "soft_joints": 1603,
+   "smooth_before": 435,
+   "smooth_after": 482,
+   "mean_soft_kink_before_degrees": 13.903667780162825,
+   "mean_soft_kink_after_degrees": 13.455761438401785,
+   "changed_arcs": 1601,
+   "proven_after_smoothing": 80
+  }
+ },
+ {
+  "epsilon": 5,
+  "cases": 80,
+  "failed": 0,
+  "baseline": {
+   "median_size": 28.0,
+   "total_size": 2401,
+   "optimal_in_class": 80,
+   "median_seconds": 37.05698449999909,
+   "total_seconds": 3893.1780282998225
+  },
+  "span_256": {
+   "median_size": 38.0,
+   "total_size": 3039,
+   "optimal_in_class": 80,
+   "median_seconds": 13.612390850001248,
+   "total_seconds": 1159.515519000357
+  },
+  "span_1024": {
+   "median_size": 25.0,
+   "total_size": 2155,
+   "optimal_in_class": 80,
+   "median_seconds": 96.39785564999329,
+   "total_seconds": 8695.824536499975
+  },
+  "beta_0.9": {
+   "median_size": 28.0,
+   "total_size": 2403,
+   "optimal_in_class": 80,
+   "median_seconds": 33.87377649999689,
+   "total_seconds": 2898.9301470000064
+  },
+  "smoothing": {
+   "joints": 2401,
+   "soft_joints": 1240,
+   "smooth_before": 367,
+   "smooth_after": 412,
+   "mean_soft_kink_before_degrees": 14.889797593144204,
+   "mean_soft_kink_after_degrees": 14.07486059609071,
+   "changed_arcs": 1583,
+   "proven_after_smoothing": 80
+  }
+ }
+]

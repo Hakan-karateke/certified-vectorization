@@ -1,0 +1,8 @@
+{
+  "status": "failed",
+  "reason": "FreeCAD içe alıcısı geometri oluşturmadı.",
+  "traceback": "Traceback (most recent call last):\n  File \"D:\\Dev/Personal/sekilden-denkleme/src/sekilden_denkleme\\freecad_worker.py\", line 199, in main\n    result = run(request)\n             ^^^^^^^^^^^^\n  File \"D:\\Dev/Personal/sekilden-denkleme/src/sekilden_denkleme\\freecad_worker.py\", line 53, in run\n    raise ValueError(\"FreeCAD içe alıcısı geometri oluşturmadı.\")\nValueError: FreeCAD içe alıcısı geometri oluşturmadı.\n",
+  "observations": {
+    "objects": []
+  }
+}

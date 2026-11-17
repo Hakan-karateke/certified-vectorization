@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CAD program hazırlık ayarları 1.0",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "programs"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "programs": {
+      "type": "object", "additionalProperties": false,
+      "required": ["FreeCAD", "AutoCAD", "SolidWorks"],
+      "properties": {
+        "FreeCAD": {"$ref": "#/$defs/location"},
+        "AutoCAD": {"$ref": "#/$defs/location"},
+        "SolidWorks": {"$ref": "#/$defs/location"}
+      }
+    }
+  },
+  "$defs": {
+    "location": {
+      "type": "object", "additionalProperties": false,
+      "required": ["path", "version", "first_launch_confirmed"],
+      "properties": {
+        "path": {"type": "string", "maxLength": 2000},
+        "version": {"type": "string", "maxLength": 200},
+        "first_launch_confirmed": {"type": "boolean"}
+      },
+      "allOf": [{
+        "if": {"properties": {"first_launch_confirmed": {"const": true}}},
+        "then": {"properties": {"path": {"minLength": 1}, "version": {"pattern": "\\S"}}}
+      }]
+    }
+  },
+  "$comment": "Dosya adının ürünle eşleşmesi ve gerçek dosya varlığı uygulamada denetlenir. Bu JSON lisans/uyumluluk/insan sonucu değildir."
+}

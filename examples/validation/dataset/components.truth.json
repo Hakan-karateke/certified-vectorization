@@ -1,0 +1,160 @@
+{
+  "coordinate_system": "working_1000_y_up",
+  "rasterization": "pixel_center_contains",
+  "curve_flatten_bound": 0.01,
+  "noise_seed": null,
+  "pieces": [
+    [
+      {
+        "kind": "circle",
+        "params": {
+          "center": [
+            240,
+            550
+          ],
+          "radius": 140,
+          "direction": -1
+        },
+        "interval": [
+          0.0,
+          6.283185307179586
+        ],
+        "start": [
+          380.0,
+          550.0
+        ],
+        "end": [
+          380.0,
+          550.0
+        ],
+        "boundary_id": 0,
+        "component_id": 0,
+        "transform": "normalization.source_to_working",
+        "errors": {},
+        "tolerances": {}
+      }
+    ],
+    [
+      {
+        "kind": "line",
+        "params": {
+          "a": [
+            650,
+            350
+          ],
+          "b": [
+            650,
+            650
+          ]
+        },
+        "interval": [
+          0.0,
+          1.0
+        ],
+        "start": [
+          650.0,
+          350.0
+        ],
+        "end": [
+          650.0,
+          650.0
+        ],
+        "boundary_id": 1,
+        "component_id": 1,
+        "transform": "normalization.source_to_working",
+        "errors": {},
+        "tolerances": {}
+      },
+      {
+        "kind": "line",
+        "params": {
+          "a": [
+            650,
+            650
+          ],
+          "b": [
+            900,
+            650
+          ]
+        },
+        "interval": [
+          0.0,
+          1.0
+        ],
+        "start": [
+          650.0,
+          650.0
+        ],
+        "end": [
+          900.0,
+          650.0
+        ],
+        "boundary_id": 1,
+        "component_id": 1,
+        "transform": "normalization.source_to_working",
+        "errors": {},
+        "tolerances": {}
+      },
+      {
+        "kind": "line",
+        "params": {
+          "a": [
+            900,
+            650
+          ],
+          "b": [
+            900,
+            350
+          ]
+        },
+        "interval": [
+          0.0,
+          1.0
+        ],
+        "start": [
+          900.0,
+          650.0
+        ],
+        "end": [
+          900.0,
+          350.0
+        ],
+        "boundary_id": 1,
+        "component_id": 1,
+        "transform": "normalization.source_to_working",
+        "errors": {},
+        "tolerances": {}
+      },
+      {
+        "kind": "line",
+        "params": {
+          "a": [
+            900,
+            350
+          ],
+          "b": [
+            650,
+            350
+          ]
+        },
+        "interval": [
+          0.0,
+          1.0
+        ],
+        "start": [
+          900.0,
+          350.0
+        ],
+        "end": [
+          650.0,
+          350.0
+        ],
+        "boundary_id": 1,
+        "component_id": 1,
+        "transform": "normalization.source_to_working",
+        "errors": {},
+        "tolerances": {}
+      }
+    ]
+  ]
+}

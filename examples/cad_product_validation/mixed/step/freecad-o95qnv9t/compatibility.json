@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.0",
+  "recorded_at": "2026-10-15T16:57:21.819047+00:00",
+  "kind": "software_compatibility_check",
+  "product": "FreeCAD",
+  "executable": "D:\\Dev\\Personal\\sekilden-denkleme\\.tmp\\freecad\\FreeCAD_1.1.4-Windows-x86_64-py311\\bin\\freecadcmd.exe",
+  "cad_sha256": "870308a44cc229ae4d0bf9f4245e497ca582bb04471ab74a1a957bd33712bf32",
+  "cad_file": "D:\\Dev\\Personal\\sekilden-denkleme\\.tmp\\final-product25b\\mixed\\step\\reconstruction.step",
+  "format": "step",
+  "source_application_version": "2.5.0",
+  "process_returncode": 0,
+  "measured": {
+    "status": "measured",
+    "application": "FreeCAD",
+    "version": [
+      "1",
+      "1",
+      "4",
+      "20260928 (Git shallow)",
+      "Unknown",
+      "2026/09/28 13:46:34",
+      "(HEAD detached at 4fd3bf320)",
+      "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+    ],
+    "python": "3.11.14",
+    "kernel": "7.8.1",
+    "import_seconds": 0.24067050000121526,
+    "total_seconds": 2.314172899999903,
+    "imported_object_count": 1,
+    "edge_count": 15,
+    "imported_face_count": 1,
+    "profile_preparation": "native_imported_faces",
+    "profile_face_count": 1,
+    "profile_hole_count": 0,
+    "profile_area_mm2": 3780.986566600732,
+    "profile_valid": true,
+    "all_wires_closed": true,
+    "extrusion_valid": true,
+    "extrusion_volume_mm3": 18904.878471836062,
+    "extrusion_volume_native_mm3": 18904.93283300444,
+    "extrusion_volume_method": "oriented_triangle_tetrahedra_two_deflections; not certified",
+    "volume_refinement_difference_mm3": 0.048451551567268325,
+    "volume_deflections_mm": [
+      0.00125,
+      0.000625
+    ],
+    "volume_triangle_counts": [
+      46888,
+      90452
+    ],
+    "extrusion_solid_count": 1,
+    "extrusion_length_mm": 5,
+    "bounding_box_mm": [
+      19.92325176702721,
+      19.9999999,
+      -1e-07,
+      80.1525646493107,
+      87.59191774860798,
+      1e-07
+    ],
+    "max_join_gap_mm": 2.799213746640164e-13,
+    "discretization": {
+      "method": "FreeCAD Edge.discretize(Deflection)",
+      "target_mm": 0.00125,
+      "verified_bound": false
+    },
+    "edit_probe": {
+      "status": "passed",
+      "scope": "copy_of_imported_native_curve; not GUI/sketch history",
+      "kind": "circle_radius",
+      "before": 37.688072862023,
+      "after": 41.4568801482253
+    },
+    "document_path": "D:\\Dev\\Personal\\sekilden-denkleme\\.tmp\\final-product25b\\mixed\\step\\freecad-o95qnv9t\\inspection.FCStd",
+    "gui_tested": false,
+    "human_trial": false
+  },
+  "evaluation": {
+    "status": "passed",
+    "checks": {
+      "dimensions_mm": true,
+      "component_count": true,
+      "hole_count": true,
+      "closed_profiles": true,
+      "valid_profiles": true,
+      "area_mm2": true,
+      "extrusion_valid": true,
+      "extrusion_volume_mm3": true,
+      "extrusion_solid_count": true,
+      "volume_refinement_consistency": true,
+      "numerical_curve_comparison": true
+    },
+    "expected_area_mm2_polyline": 3780.953820441384,
+    "area_allowance_mm2": 2.3353448118123086,
+    "expected_bounding_box_mm_polyline": [
+      19.923493648618205,
+      20.0,
+      0.0,
+      80.15250892614677,
+      87.59136830147852,
+      0.0
+    ],
+    "tolerance_mm": 0.01,
+    "curve_comparison": {
+      "method": "bidirectional_finite_segment_convex_witness_cover_float64",
+      "transfer_upper_estimate": 0.009973769108584298,
+      "tolerance": 0.01,
+      "unit": "mm",
+      "curve_polygon_budget_each": 0.00125,
+      "numeric_margin": 1e-10,
+      "witness_segments": 2464,
+      "boundary_count": 1,
+      "polygon_nesting_preserved": true,
+      "max_closure_gap": 1.4210854715202004e-13,
+      "max_abs_z": 0.0,
+      "join_margin": 2.799213746640164e-13,
+      "reference_closure_roundoff": 0.0,
+      "verified_numerical_certificate": false,
+      "analytic_isotopy_proven_for_cad_file": false,
+      "scope": "Numerical cover conditional on FreeCAD deflection discretization; not a verified curve bound."
+    },
+    "verified_numerical_certificate": false,
+    "independent_application": true,
+    "independent_geometry_kernel": false,
+    "scope": "FreeCAD headless product import; shared OCCT kernel; no CAD GUI or human pilot measured."
+  }
+}

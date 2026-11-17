@@ -1,0 +1,90 @@
+{
+  "coordinate_system": "working_1000_y_up",
+  "rasterization": "pixel_center_contains",
+  "curve_flatten_bound": 0.01,
+  "noise_seed": null,
+  "pieces": [
+    [
+      {
+        "kind": "bezier",
+        "params": {
+          "controls": [
+            [
+              220,
+              500
+            ],
+            [
+              220,
+              850
+            ],
+            [
+              780,
+              850
+            ],
+            [
+              780,
+              500
+            ]
+          ]
+        },
+        "interval": [
+          0.0,
+          1.0
+        ],
+        "start": [
+          220.0,
+          500.0
+        ],
+        "end": [
+          780.0,
+          500.0
+        ],
+        "boundary_id": 0,
+        "component_id": 0,
+        "transform": "normalization.source_to_working",
+        "errors": {},
+        "tolerances": {}
+      },
+      {
+        "kind": "bezier",
+        "params": {
+          "controls": [
+            [
+              780,
+              500
+            ],
+            [
+              780,
+              150
+            ],
+            [
+              220,
+              150
+            ],
+            [
+              220,
+              500
+            ]
+          ]
+        },
+        "interval": [
+          0.0,
+          1.0
+        ],
+        "start": [
+          780.0,
+          500.0
+        ],
+        "end": [
+          220.0,
+          500.0
+        ],
+        "boundary_id": 0,
+        "component_id": 0,
+        "transform": "normalization.source_to_working",
+        "errors": {},
+        "tolerances": {}
+      }
+    ]
+  ]
+}

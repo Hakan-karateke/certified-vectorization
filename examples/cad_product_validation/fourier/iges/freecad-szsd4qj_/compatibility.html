@@ -1,0 +1,124 @@
+<!doctype html><html lang="tr"><meta charset="utf-8"><title>FreeCAD uyumluluk: passed</title><style>body{font:16px system-ui;max-width:1200px;margin:32px auto;padding:20px;color:#173142}table{border-collapse:collapse;width:100%;margin:20px 0}td,th{border:1px solid #ccd6dd;padding:8px;text-align:left}th{background:#eef3f6}pre{white-space:pre-wrap;overflow-wrap:anywhere}img{max-width:100%}</style><h1>FreeCAD uyumluluk: passed</h1><p>Bu kayıt ayrı FreeCAD uygulamasının başsız içe alma deneyidir. OCCT çekirdeği ortaktır; insan pilotu veya CAD arayüz testi değildir. DXF için yerel kenarlardan yüz oluşturma adımı ayrıca yazılır. Eğri kopyasının parametre deneyi native sketch geçmişi anlamına gelmez.</p><div class="table-wrap"><table><thead><tr><th>Denetim</th><th>Sonuç</th></tr></thead><tbody><tr><td>dimensions_mm</td><td>True</td></tr><tr><td>component_count</td><td>True</td></tr><tr><td>hole_count</td><td>True</td></tr><tr><td>closed_profiles</td><td>True</td></tr><tr><td>valid_profiles</td><td>True</td></tr><tr><td>area_mm2</td><td>True</td></tr><tr><td>extrusion_valid</td><td>True</td></tr><tr><td>extrusion_volume_mm3</td><td>True</td></tr><tr><td>extrusion_solid_count</td><td>True</td></tr><tr><td>volume_refinement_consistency</td><td>True</td></tr><tr><td>numerical_curve_comparison</td><td>True</td></tr></tbody></table></div><pre>{
+  &quot;schema_version&quot;: &quot;1.0&quot;,
+  &quot;recorded_at&quot;: &quot;2026-10-15T16:57:46.873013+00:00&quot;,
+  &quot;kind&quot;: &quot;software_compatibility_check&quot;,
+  &quot;product&quot;: &quot;FreeCAD&quot;,
+  &quot;executable&quot;: &quot;D:\\Dev\\Personal\\sekilden-denkleme\\.tmp\\freecad\\FreeCAD_1.1.4-Windows-x86_64-py311\\bin\\freecadcmd.exe&quot;,
+  &quot;cad_sha256&quot;: &quot;08988cd48abd181b5fdef96d62be762975dadbeb34215b572a39668157bfe68a&quot;,
+  &quot;cad_file&quot;: &quot;D:\\Dev\\Personal\\sekilden-denkleme\\.tmp\\final-product25b\\fourier\\iges\\reconstruction.iges&quot;,
+  &quot;format&quot;: &quot;iges&quot;,
+  &quot;source_application_version&quot;: &quot;2.5.0&quot;,
+  &quot;process_returncode&quot;: 0,
+  &quot;measured&quot;: {
+    &quot;status&quot;: &quot;measured&quot;,
+    &quot;application&quot;: &quot;FreeCAD&quot;,
+    &quot;version&quot;: [
+      &quot;1&quot;,
+      &quot;1&quot;,
+      &quot;4&quot;,
+      &quot;20260928 (Git shallow)&quot;,
+      &quot;Unknown&quot;,
+      &quot;2026/09/28 13:46:34&quot;,
+      &quot;(HEAD detached at 4fd3bf320)&quot;,
+      &quot;4fd3bf320d9566a27e60069fc8387448aaa3a094&quot;
+    ],
+    &quot;python&quot;: &quot;3.11.14&quot;,
+    &quot;kernel&quot;: &quot;7.8.1&quot;,
+    &quot;import_seconds&quot;: 0.3526400000009744,
+    &quot;total_seconds&quot;: 0.8391057000008004,
+    &quot;imported_object_count&quot;: 1,
+    &quot;edge_count&quot;: 637,
+    &quot;imported_face_count&quot;: 1,
+    &quot;profile_preparation&quot;: &quot;native_imported_faces&quot;,
+    &quot;profile_face_count&quot;: 1,
+    &quot;profile_hole_count&quot;: 0,
+    &quot;profile_area_mm2&quot;: 2828.1016984397943,
+    &quot;profile_valid&quot;: true,
+    &quot;all_wires_closed&quot;: true,
+    &quot;extrusion_valid&quot;: true,
+    &quot;extrusion_volume_mm3&quot;: 14140.508492198971,
+    &quot;extrusion_volume_native_mm3&quot;: 14140.50849219897,
+    &quot;extrusion_volume_method&quot;: &quot;oriented_triangle_tetrahedra_two_deflections; not certified&quot;,
+    &quot;volume_refinement_difference_mm3&quot;: 0.0,
+    &quot;volume_deflections_mm&quot;: [
+      0.00125,
+      0.000625
+    ],
+    &quot;volume_triangle_counts&quot;: [
+      2544,
+      2544
+    ],
+    &quot;extrusion_solid_count&quot;: 1,
+    &quot;extrusion_length_mm&quot;: 5,
+    &quot;bounding_box_mm&quot;: [
+      20.087591031,
+      20.08841422,
+      0.0,
+      79.911658977,
+      79.911261161,
+      0.0
+    ],
+    &quot;max_join_gap_mm&quot;: 0.0,
+    &quot;discretization&quot;: {
+      &quot;method&quot;: &quot;FreeCAD Edge.discretize(Deflection)&quot;,
+      &quot;target_mm&quot;: 0.00125,
+      &quot;verified_bound&quot;: false
+    },
+    &quot;edit_probe&quot;: {
+      &quot;status&quot;: &quot;not_applicable&quot;,
+      &quot;scope&quot;: &quot;copy_of_imported_native_curve; not GUI/sketch history&quot;
+    },
+    &quot;document_path&quot;: &quot;D:\\Dev\\Personal\\sekilden-denkleme\\.tmp\\final-product25b\\fourier\\iges\\freecad-szsd4qj_\\inspection.FCStd&quot;,
+    &quot;gui_tested&quot;: false,
+    &quot;human_trial&quot;: false
+  },
+  &quot;evaluation&quot;: {
+    &quot;status&quot;: &quot;passed&quot;,
+    &quot;checks&quot;: {
+      &quot;dimensions_mm&quot;: true,
+      &quot;component_count&quot;: true,
+      &quot;hole_count&quot;: true,
+      &quot;closed_profiles&quot;: true,
+      &quot;valid_profiles&quot;: true,
+      &quot;area_mm2&quot;: true,
+      &quot;extrusion_valid&quot;: true,
+      &quot;extrusion_volume_mm3&quot;: true,
+      &quot;extrusion_solid_count&quot;: true,
+      &quot;volume_refinement_consistency&quot;: true,
+      &quot;numerical_curve_comparison&quot;: true
+    },
+    &quot;expected_area_mm2_polyline&quot;: 2828.101698439009,
+    &quot;area_allowance_mm2&quot;: 1.885809259014092,
+    &quot;expected_bounding_box_mm_polyline&quot;: [
+      20.08759103132351,
+      20.088414220448332,
+      0.0,
+      79.91165897660082,
+      79.91126116127808,
+      0.0
+    ],
+    &quot;tolerance_mm&quot;: 0.01,
+    &quot;curve_comparison&quot;: {
+      &quot;method&quot;: &quot;bidirectional_finite_segment_convex_witness_cover_float64&quot;,
+      &quot;transfer_upper_estimate&quot;: 0.002500000793277493,
+      &quot;tolerance&quot;: 0.01,
+      &quot;unit&quot;: &quot;mm&quot;,
+      &quot;curve_polygon_budget_each&quot;: 0.00125,
+      &quot;numeric_margin&quot;: 1e-10,
+      &quot;witness_segments&quot;: 1274,
+      &quot;boundary_count&quot;: 1,
+      &quot;polygon_nesting_preserved&quot;: true,
+      &quot;max_closure_gap&quot;: 0.0,
+      &quot;max_abs_z&quot;: 0.0,
+      &quot;join_margin&quot;: 0.0,
+      &quot;reference_closure_roundoff&quot;: 7.105427357601002e-15,
+      &quot;verified_numerical_certificate&quot;: false,
+      &quot;analytic_isotopy_proven_for_cad_file&quot;: false,
+      &quot;scope&quot;: &quot;Numerical cover conditional on FreeCAD deflection discretization; not a verified curve bound.&quot;
+    },
+    &quot;verified_numerical_certificate&quot;: false,
+    &quot;independent_application&quot;: true,
+    &quot;independent_geometry_kernel&quot;: false,
+    &quot;scope&quot;: &quot;FreeCAD headless product import; shared OCCT kernel; no CAD GUI or human pilot measured.&quot;
+  }
+}</pre></html>

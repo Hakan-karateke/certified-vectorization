@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Üç CAD ürünü görev planı 1.0",
+  "type": "object", "additionalProperties": false,
+  "required": ["schema_version", "kind", "created_at", "application_version", "observation_count", "cases", "tasks", "assets", "scope"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "kind": {"const": "cad_pilot_plan"},
+    "created_at": {"type": "string", "format": "date-time"},
+    "application_version": {"type": "string", "maxLength": 100},
+    "observation_count": {"const": 0},
+    "scope": {"type": "string"},
+    "cases": {
+      "type": "object", "additionalProperties": false,
+      "required": ["circle", "ring", "mixed"],
+      "properties": {"circle": {"$ref": "#/$defs/case"}, "ring": {"$ref": "#/$defs/case"}, "mixed": {"$ref": "#/$defs/case"}}
+    },
+    "assets": {
+      "type": "object", "minProperties": 1, "maxProperties": 256,
+      "required": ["index.html"],
+      "propertyNames": {"$ref": "#/$defs/path"},
+      "additionalProperties": {
+        "type": "object", "additionalProperties": false, "required": ["sha256", "bytes"],
+        "properties": {"sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}, "bytes": {"type": "integer", "minimum": 1, "maximum": 80000000}}
+      }
+    },
+    "tasks": {"type": "array", "minItems": 54, "maxItems": 54, "items": {"$ref": "#/$defs/task"}}
+  },
+  "$defs": {
+    "path": {"type": "string", "minLength": 1, "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))(?!.*[:\\\\]).+$"},
+    "point": {"type": "array", "minItems": 2, "maxItems": 2, "items": {"type": "number"}},
+    "case": {
+      "type": "object", "additionalProperties": false,
+      "required": ["label", "case_id", "project", "parameters", "source_png", "model_png", "equations", "cad", "component_count", "hole_count", "bounding_min_mm", "bounding_max_mm", "bounding_scope", "edit_target", "physical_error_summary"],
+      "properties": {
+        "label": {"type": "string", "minLength": 1, "maxLength": 100},
+        "case_id": {"type": "string", "minLength": 1},
+        "project": {"$ref": "#/$defs/path"}, "parameters": {"$ref": "#/$defs/path"},
+        "source_png": {"$ref": "#/$defs/path"}, "model_png": {"$ref": "#/$defs/path"}, "equations": {"$ref": "#/$defs/path"},
+        "cad": {"type": "object", "additionalProperties": false, "required": ["step", "iges", "dxf"], "properties": {"step": {"$ref": "#/$defs/path"}, "iges": {"$ref": "#/$defs/path"}, "dxf": {"$ref": "#/$defs/path"}}},
+        "component_count": {"type": "integer", "minimum": 1}, "hole_count": {"type": "integer", "minimum": 0},
+        "bounding_min_mm": {"$ref": "#/$defs/point"}, "bounding_max_mm": {"$ref": "#/$defs/point"},
+        "bounding_scope": {"type": "string"},
+        "edit_target": {"type": "object", "required": ["kind", "native_curve_index", "source_piece", "instruction"], "properties": {"kind": {"enum": ["radius", "control_point"]}, "native_curve_index": {"type": "integer", "minimum": 0}, "source_piece": {"type": "integer", "minimum": 0}, "instruction": {"type": "string"}}},
+        "physical_error_summary": {"type": "object"}
+      }
+    },
+    "task": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "product", "case", "case_id", "task", "method", "format", "repeat", "order", "target_tolerance_mm", "time_limit_seconds"],
+      "properties": {
+        "id": {"type": "string"}, "product": {"enum": ["FreeCAD", "AutoCAD", "SolidWorks"]},
+        "case": {"enum": ["circle", "ring", "mixed"]}, "case_id": {"type": "string"},
+        "task": {"enum": ["import", "profile", "edit"]}, "method": {"enum": ["generated", "baseline"]},
+        "format": {"enum": ["step", "iges", "dxf"]}, "repeat": {"const": "1"},
+        "order": {"type": "integer", "minimum": 1, "maximum": 54},
+        "target_tolerance_mm": {"const": 0.1}, "time_limit_seconds": {"const": 600}
+      }
+    }
+  },
+  "$comment": "JSON Schema yapısal sözleşmedir. Uygulama ayrıca dosya kapsamı/hash, toplam 250 MB, CAD katsayı/hedef tutarlılığı ve sabit 54 kartın tam sırasını doğrular."
+}

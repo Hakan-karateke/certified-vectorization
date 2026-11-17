@@ -1,0 +1,24 @@
+<!doctype html><html lang="tr"><meta charset="utf-8"><title>FreeCAD uyumluluk: failed</title><style>body{font:16px system-ui;max-width:1200px;margin:32px auto;padding:20px;color:#173142}table{border-collapse:collapse;width:100%;margin:20px 0}td,th{border:1px solid #ccd6dd;padding:8px;text-align:left}th{background:#eef3f6}pre{white-space:pre-wrap;overflow-wrap:anywhere}img{max-width:100%}</style><h1>FreeCAD uyumluluk: failed</h1><p>Bu kayıt ayrı FreeCAD uygulamasının başsız içe alma deneyidir. OCCT çekirdeği ortaktır; insan pilotu veya CAD arayüz testi değildir. DXF için yerel kenarlardan yüz oluşturma adımı ayrıca yazılır. Eğri kopyasının parametre deneyi native sketch geçmişi anlamına gelmez.</p><div class="table-wrap"><table><thead><tr><th>Denetim</th><th>Sonuç</th></tr></thead><tbody></tbody></table></div><pre>{
+  &quot;schema_version&quot;: &quot;1.0&quot;,
+  &quot;recorded_at&quot;: &quot;2026-10-15T16:57:47.231150+00:00&quot;,
+  &quot;kind&quot;: &quot;software_compatibility_check&quot;,
+  &quot;product&quot;: &quot;FreeCAD&quot;,
+  &quot;executable&quot;: &quot;D:\\Dev\\Personal\\sekilden-denkleme\\.tmp\\freecad\\FreeCAD_1.1.4-Windows-x86_64-py311\\bin\\freecadcmd.exe&quot;,
+  &quot;cad_sha256&quot;: &quot;34ca5fe579f2b9089038d093b022a68ed50a1323e0ec4cb57d07aa7dd405c607&quot;,
+  &quot;cad_file&quot;: &quot;D:\\Dev\\Personal\\sekilden-denkleme\\examples\\cad_validation\\components\\reconstruction.iges&quot;,
+  &quot;format&quot;: &quot;iges&quot;,
+  &quot;source_application_version&quot;: &quot;2.4.0&quot;,
+  &quot;process_returncode&quot;: 0,
+  &quot;measured&quot;: {
+    &quot;status&quot;: &quot;failed&quot;,
+    &quot;reason&quot;: &quot;FreeCAD içe alıcısı geometri oluşturmadı.&quot;,
+    &quot;traceback&quot;: &quot;Traceback (most recent call last):\n  File \&quot;D:\\Dev/Personal/sekilden-denkleme/src/sekilden_denkleme\\freecad_worker.py\&quot;, line 199, in main\n    result = run(request)\n             ^^^^^^^^^^^^\n  File \&quot;D:\\Dev/Personal/sekilden-denkleme/src/sekilden_denkleme\\freecad_worker.py\&quot;, line 53, in run\n    raise ValueError(\&quot;FreeCAD içe alıcısı geometri oluşturmadı.\&quot;)\nValueError: FreeCAD içe alıcısı geometri oluşturmadı.\n&quot;,
+    &quot;observations&quot;: {
+      &quot;objects&quot;: []
+    }
+  },
+  &quot;evaluation&quot;: {
+    &quot;status&quot;: &quot;failed&quot;,
+    &quot;reason&quot;: &quot;FreeCAD içe alıcısı geometri oluşturmadı.&quot;
+  }
+}</pre></html>

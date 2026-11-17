@@ -1,0 +1,315 @@
+{
+  "schema_version": "1.0",
+  "application_version": "2.4.0",
+  "format": "step",
+  "cad_file": "reconstruction.step",
+  "cad_sha256": "5adda93a158ed4af3d888e19a74e7b5ffd6b5b371f44782e9e0eb41915620015",
+  "cad_options": {
+    "unit": "mm",
+    "scale": 0.1,
+    "tolerance": 0.01,
+    "allow_approximation": false
+  },
+  "coordinate_contract": {
+    "plane": "XY; z=0",
+    "axis": "x_right_y_up",
+    "mapping": "CAD coordinates = working coordinates * scale; origin unchanged",
+    "physical_calibration": "user_assigned_scale_not_inferred_from_image"
+  },
+  "representation": "DXF: grouped planar curves; STEP/IGES: planar faces with hole wires; no solids or native dimensional constraint/history tree",
+  "orientation_contract": "STEP/IGES face normal +Z, outer wires CCW and hole wires CW; source traversal remains in selected_model, face reversals in entity_mapping. Readers may reparameterize native curves.",
+  "selected_model": {
+    "id": "circle-1",
+    "family": "circle",
+    "pieces": [
+      {
+        "kind": "circle",
+        "params": {
+          "center": [
+            500.00188721096407,
+            500.00471456180327
+          ],
+          "radius": 300.03543282325285,
+          "direction": -1,
+          "full_turn": true
+        },
+        "interval": [
+          0.0,
+          6.283185307179586
+        ],
+        "start": [
+          800.0373200342169,
+          500.00471456180327
+        ],
+        "end": [
+          800.0373200342169,
+          500.00471456180327
+        ],
+        "boundary_id": 0,
+        "component_id": 0,
+        "transform": "normalization.source_to_working",
+        "errors": {
+          "solver": "least_squares_trf",
+          "jacobian_condition": 1.414218688544818,
+          "nfev": 5,
+          "converged": true,
+          "scope": "owning_boundary",
+          "sampled_hausdorff": 0.7254534345889198,
+          "rms": 0.27891777039196136,
+          "hausdorff_upper_bound": 1.1504534445889198,
+          "forward_max": 0.7254534345889198,
+          "backward_max": 0.5002674155725799
+        },
+        "tolerances": {
+          "flatten": 0.05,
+          "sample_spacing": 0.75,
+          "join": 1e-07,
+          "floating_margin": 1e-08
+        }
+      }
+    ],
+    "equations": [
+      "r(t)=(500.00188721096407, 500.00471456180327)+R(0)*(300.03543282325285 cos(-1φ), 300.03543282325285 sin(-1φ)); φ=2πt/(6.2831853071795862); tam kapalı halka; 0<=t<=6.2831853071795862; yön 0 -> 6.2831853071795862"
+    ],
+    "complexity": {
+      "score_bits": 392,
+      "piece_count": 1,
+      "free_parameters_upper": 3,
+      "stored_real_count": 5,
+      "stored_integer_count": 2,
+      "control_points": 0,
+      "knots": 0,
+      "max_degree": 2,
+      "degree_note": "Çember/elips: örtük derece; Fourier: 0 polinom dışı anlamındadır, harmonik sayısı katsayılardan bilinir; diğerleri: parametrik polinom derecesi.",
+      "interval_constraints": 1,
+      "encoding": "fixed64_v1",
+      "parameter_count_note": "Paylaşılan uç/periodiklik kısıtları düşülmemiş üst sayım."
+    },
+    "metrics": {
+      "sampled_hausdorff": 0.7254534345889198,
+      "hausdorff_upper_bound": 1.1504534445889198,
+      "bound_kind": "Lipschitz_sampling_plus_curve_bound_float64",
+      "verified_numerical_certificate": true,
+      "distance_backend": "GEOS_STRtree_segments",
+      "evaluation_workers": 1,
+      "reference_cache_reused": false,
+      "rms": 0.27891777039196136,
+      "area_difference": 42.038182592368685,
+      "area_reference": 282790.0,
+      "area_model_polygonized": 282747.96181740763,
+      "area_curve_uncertainty_bound": 188.51531529960312,
+      "sample_count": 6571,
+      "max_sample_gap": 0.75,
+      "flatten_tolerance": 0.05,
+      "topology": {
+        "preserved": true,
+        "reasons": [],
+        "scope": "polygonized_with_inter_ring_clearance",
+        "analytic_isotopy_proven": true,
+        "component_count": 1,
+        "hole_count": 0
+      },
+      "join_max_gap": 0.0,
+      "join_max_tangent_angle_degrees": 0.0,
+      "tangent_continuity_required": false,
+      "per_boundary": {
+        "0": {
+          "sampled_hausdorff": 0.7254534345889198,
+          "rms": 0.27891777039196136,
+          "hausdorff_upper_bound": 1.1504534445889198,
+          "forward_max": 0.7254534345889198,
+          "backward_max": 0.5002674155725799
+        }
+      },
+      "elapsed_seconds": 0.03942379999989498,
+      "certification": {
+        "certificate_version": "1.3",
+        "arithmetic": "outward_binary64_intervals_and_exact_rationals",
+        "coefficient_semantics": "stored binary64 values interpreted as exact dyadic rationals",
+        "verified_numerical_certificate": true,
+        "analytic_isotopy_proven": true,
+        "status": "proven",
+        "reasons": [],
+        "spline_conversion": "exact_rational_de_Boor_Hermite",
+        "rational_arc_semantics": "positive homogeneous quadratic Bernstein; exact shared dyadic endpoints",
+        "full_conic_semantics": "canonical full-turn interval; exact symbolic 2*pi phase, dyadic radii and rotation angle",
+        "hausdorff_upper_bound": 1.0127714494398257,
+        "within_tolerance": true,
+        "curve_to_polygon_bound": 0.02435154880525259,
+        "sample_spacing": 0.5,
+        "topology_method": "rational_Bernstein_enclosed_conics_and_exact_Jordan_nesting"
+      }
+    }
+  },
+  "topology": {
+    "rings": [
+      {
+        "id": 0,
+        "kind": "outer",
+        "parent_id": null,
+        "component_id": 0,
+        "closed": true
+      }
+    ],
+    "component_count": 1,
+    "hole_count": 0,
+    "contacts": [],
+    "connectivity": "foreground_4_neighbors"
+  },
+  "normalization": {
+    "raw_source_size": [
+      1000,
+      1000
+    ],
+    "exif_orientation": 1,
+    "exif_applied": false,
+    "source_size": [
+      1000,
+      1000
+    ],
+    "canvas_size": [
+      1000,
+      1000
+    ],
+    "resized_size": [
+      1000,
+      1000
+    ],
+    "scale_x": 1.0,
+    "scale_y": 1.0,
+    "offset_top_left": [
+      0,
+      0
+    ],
+    "coordinate_domain": [
+      0,
+      1000
+    ],
+    "coordinate_convention": "x sağa, y yukarı; piksel (r,c) = [c,c+1] × [999-r,1000-r]",
+    "foreground_pixels": 282790,
+    "resampling": "threshold_then_nearest",
+    "threshold_method": "global_inclusive",
+    "threshold": 127,
+    "pixel_geometry": "unit_square_edges",
+    "source_transform_applies_to": "EXIF-oriented continuous pixel edges",
+    "source_to_working": [
+      [
+        1.0,
+        0,
+        0
+      ],
+      [
+        0,
+        -1.0,
+        1000
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "working_to_source": [
+      [
+        1.0,
+        0,
+        0.0
+      ],
+      [
+        0,
+        -1.0,
+        1000.0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "source": {
+    "sha256": "96d82a2fceec8dd1fb563dd1590371c7e7182c747a364c3f79f84e17a17887bb",
+    "path": "D:\\Dev\\Personal\\sekilden-denkleme\\examples\\validation\\dataset\\circle.png"
+  },
+  "implicit_polynomial": null,
+  "entity_mapping": [
+    {
+      "piece": 0,
+      "boundary": 0,
+      "native_curve": "circle",
+      "edge_count": 1,
+      "reversed": true,
+      "interval": [
+        0.0,
+        6.283185307179586
+      ],
+      "face_wire_reversed": true
+    }
+  ],
+  "native_curves": [
+    {
+      "kind": "circle",
+      "params": {
+        "center": [
+          50.00018872109641,
+          50.00047145618033
+        ],
+        "radius": 30.003543282325285,
+        "start": -6.283185307179586,
+        "end": -0.0,
+        "full": true
+      },
+      "source_piece": 0,
+      "boundary_id": 0,
+      "interval": [
+        0.0,
+        6.283185307179586
+      ],
+      "reversed": true
+    }
+  ],
+  "cad_complexity": {
+    "native_curve_count": 1,
+    "native_control_points": 0,
+    "polyline_vertices": 0,
+    "reader_edge_or_entity_count": 1,
+    "cad_file_bytes": 2801,
+    "source_model_score_bits": 392
+  },
+  "approximated_source_pieces": [],
+  "reader": {
+    "reader": "Open CASCADE/OCP",
+    "reader_version": "7.9.3.1",
+    "edge_count": 1,
+    "wire_count": 1,
+    "max_join_gap": 7.105427357601002e-15,
+    "internal_reader_unit": "mm"
+  },
+  "transfer_validation": {
+    "method": "bidirectional_finite_segment_convex_witness_cover_float64",
+    "transfer_upper_estimate": 0.0025000001008344186,
+    "tolerance": 0.01,
+    "unit": "mm",
+    "curve_polygon_budget_each": 0.00125,
+    "numeric_margin": 1e-10,
+    "witness_segments": 690,
+    "boundary_count": 1,
+    "polygon_nesting_preserved": true,
+    "max_closure_gap": 7.105427357601002e-15,
+    "max_abs_z": 0.0,
+    "join_margin": 7.105427357601002e-15,
+    "reference_closure_roundoff": 0.0,
+    "verified_numerical_certificate": false,
+    "analytic_isotopy_proven_for_cad_file": false,
+    "scope": "CAD okuyucusundan tekrar alınan geometri; float64 kontrollü poligonlar. Kaynak model sertifikasından ayrıdır."
+  },
+  "physical_error_summary": {
+    "unit": "mm",
+    "source_verified_upper_scaled": 0.10127714494398257,
+    "cad_transfer_upper_estimate": 0.0025000001008344186,
+    "combined_pixel_boundary_upper_estimate": 0.10377714504481698,
+    "combined_verified_numerical_certificate": false,
+    "ideal_object_error_known": false
+  },
+  "original_model_certificate_scope": "source model and normalized pixel reference; does not certify the CAD file"
+}

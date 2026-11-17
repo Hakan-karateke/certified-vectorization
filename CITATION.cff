@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Certified raster-to-vector conversion with provably minimal polygons and line-arc rings"
+type: software
+authors:
+  - family-names: "Karateke"
+    given-names: "Hakan"
+version: "3.0.0"
+license: "MIT"
+keywords:
+  - vectorization
+  - certified computation
+  - Hausdorff distance
+  - minimum-link polygon
+  - circular arcs

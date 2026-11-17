@@ -1,0 +1,38 @@
+{
+  "coordinate_system": "working_1000_y_up",
+  "rasterization": "pixel_center_contains",
+  "curve_flatten_bound": 0.01,
+  "noise_seed": null,
+  "pieces": [
+    [
+      {
+        "kind": "circle",
+        "params": {
+          "center": [
+            500,
+            500
+          ],
+          "radius": 300,
+          "direction": -1
+        },
+        "interval": [
+          0.0,
+          6.283185307179586
+        ],
+        "start": [
+          800.0,
+          500.0
+        ],
+        "end": [
+          800.0,
+          500.00000000000006
+        ],
+        "boundary_id": 0,
+        "component_id": 0,
+        "transform": "normalization.source_to_working",
+        "errors": {},
+        "tolerances": {}
+      }
+    ]
+  ]
+}

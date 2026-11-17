@@ -1,0 +1,110 @@
+[
+ {
+  "epsilon": 1,
+  "cases": 41,
+  "failed": 0,
+  "c_0.1": {
+   "median_size": 167,
+   "total_size": 7661,
+   "optimal_in_class": 41,
+   "median_seconds": 0.7626728999894112,
+   "total_seconds": 41.404101699823514
+  },
+  "c_0.25": {
+   "median_size": 167,
+   "total_size": 7661,
+   "optimal_in_class": 41,
+   "median_seconds": 0.7027153000235558,
+   "total_seconds": 40.57282150001265
+  },
+  "c_0.5": {
+   "median_size": 167,
+   "total_size": 7661,
+   "optimal_in_class": 41,
+   "median_seconds": 1.6038679999765009,
+   "total_seconds": 447.91950860020006
+  },
+  "inputs_where_clearance_changes_edges": 0
+ },
+ {
+  "epsilon": 2,
+  "cases": 41,
+  "failed": 0,
+  "c_0.1": {
+   "median_size": 99,
+   "total_size": 4708,
+   "optimal_in_class": 40,
+   "median_seconds": 0.9913406000123359,
+   "total_seconds": 58.380434600054286
+  },
+  "c_0.25": {
+   "median_size": 99,
+   "total_size": 4708,
+   "optimal_in_class": 40,
+   "median_seconds": 1.1346544000552967,
+   "total_seconds": 59.74950940022245
+  },
+  "c_0.5": {
+   "median_size": 99,
+   "total_size": 4708,
+   "optimal_in_class": 39,
+   "median_seconds": 1.4150732000125572,
+   "total_seconds": 690.6361377002904
+  },
+  "inputs_where_clearance_changes_edges": 0
+ },
+ {
+  "epsilon": 3,
+  "cases": 41,
+  "failed": 0,
+  "c_0.1": {
+   "median_size": 82,
+   "total_size": 3782,
+   "optimal_in_class": 40,
+   "median_seconds": 1.2487807999714278,
+   "total_seconds": 69.22721770004136
+  },
+  "c_0.25": {
+   "median_size": 82,
+   "total_size": 3782,
+   "optimal_in_class": 40,
+   "median_seconds": 1.173918800021056,
+   "total_seconds": 68.28507200005697
+  },
+  "c_0.5": {
+   "median_size": 82,
+   "total_size": 3782,
+   "optimal_in_class": 40,
+   "median_seconds": 1.62950360000832,
+   "total_seconds": 1566.8069413000485
+  },
+  "inputs_where_clearance_changes_edges": 0
+ },
+ {
+  "epsilon": 5,
+  "cases": 41,
+  "failed": 0,
+  "c_0.1": {
+   "median_size": 67,
+   "total_size": 3155,
+   "optimal_in_class": 41,
+   "median_seconds": 1.717523599974811,
+   "total_seconds": 93.45504090015311
+  },
+  "c_0.25": {
+   "median_size": 67,
+   "total_size": 3155,
+   "optimal_in_class": 41,
+   "median_seconds": 1.6699872000026517,
+   "total_seconds": 93.02272219996667
+  },
+  "c_0.5": {
+   "median_size": 67,
+   "total_size": 3154,
+   "optimal_in_class": 37,
+   "median_seconds": 2.043529199960176,
+   "total_seconds": 1318.45561239979
+  },
+  "inputs_where_clearance_changes_edges": 1
+ }
+]

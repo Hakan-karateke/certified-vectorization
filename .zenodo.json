@@ -1,0 +1,18 @@
+{
+  "title": "Certified raster-to-vector conversion with provably minimal polygons and line-arc rings",
+  "upload_type": "software",
+  "version": "3.0.0",
+  "creators": [
+    {
+      "name": "Karateke, Hakan"
+    }
+  ],
+  "license": "MIT",
+  "description": "Implementation, experiment scripts, recorded results and manuscript for certified raster-to-vector conversion: an independent checker for the Hausdorff error and the planar topology of a vector model, provably minimal node-restricted polygons and line-arc rings, and audits of third-party tracers.",
+  "keywords": [
+    "vectorization",
+    "certified computation",
+    "Hausdorff distance",
+    "CAD"
+  ]
+}

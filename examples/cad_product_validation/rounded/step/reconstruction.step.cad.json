@@ -1,0 +1,1145 @@
+{
+  "schema_version": "1.0",
+  "application_version": "2.5.0",
+  "format": "step",
+  "cad_file": "reconstruction.step",
+  "cad_sha256": "44e25c64648d915ef514676e91977c56cdf6ae2e4f18acfc42851a62b4c048b1",
+  "cad_options": {
+    "unit": "mm",
+    "scale": 0.1,
+    "tolerance": 0.01,
+    "allow_approximation": false
+  },
+  "coordinate_contract": {
+    "plane": "XY; z=0",
+    "axis": "x_right_y_up",
+    "mapping": "CAD coordinates = working coordinates * scale; origin unchanged",
+    "physical_calibration": "user_assigned_scale_not_inferred_from_image"
+  },
+  "representation": "DXF: grouped planar curves; STEP/IGES: planar faces with hole wires; no solids or native dimensional constraint/history tree",
+  "orientation_contract": "STEP/IGES face normal +Z, outer wires CCW and hole wires CW; source traversal remains in selected_model, face reversals in entity_mapping. Readers may reparameterize native curves.",
+  "selected_model": {
+    "id": "mixed-0.65",
+    "family": "mixed",
+    "pieces": [
+      {
+        "kind": "line",
+        "params": {
+          "a": [
+            240.0,
+            850.0
+          ],
+          "b": [
+            590.0,
+            850.0
+          ]
+        },
+        "interval": [
+          0.0,
+          1.0
+        ],
+        "start": [
+          240.0,
+          850.0
+        ],
+        "end": [
+          590.0,
+          850.0
+        ],
+        "boundary_id": 0,
+        "component_id": 0,
+        "transform": "normalization.source_to_working",
+        "errors": {
+          "scope": "owning_boundary",
+          "sampled_hausdorff": 0.9910306550475344,
+          "rms": 0.32297783499925514,
+          "hausdorff_upper_bound": 1.4160306650475343,
+          "forward_max": 0.9910306550475344,
+          "backward_max": 0.9615384615384528
+        },
+        "tolerances": {
+          "flatten": 0.05,
+          "sample_spacing": 0.75,
+          "join": 1e-07,
+          "floating_margin": 1e-08
+        }
+      },
+      {
+        "kind": "line",
+        "params": {
+          "a": [
+            590.0,
+            850.0
+          ],
+          "b": [
+            765.4957264957266,
+            849.0
+          ]
+        },
+        "interval": [
+          0.0,
+          1.0
+        ],
+        "start": [
+          590.0,
+          850.0
+        ],
+        "end": [
+          765.4957264957266,
+          849.0
+        ],
+        "boundary_id": 0,
+        "component_id": 0,
+        "transform": "normalization.source_to_working",
+        "errors": {
+          "scope": "owning_boundary",
+          "sampled_hausdorff": 0.9910306550475344,
+          "rms": 0.32297783499925514,
+          "hausdorff_upper_bound": 1.4160306650475343,
+          "forward_max": 0.9910306550475344,
+          "backward_max": 0.9615384615384528
+        },
+        "tolerances": {
+          "flatten": 0.05,
+          "sample_spacing": 0.75,
+          "join": 1e-07,
+          "floating_margin": 1e-08
+        }
+      },
+      {
+        "kind": "circle",
+        "params": {
+          "arc": {
+            "a": [
+              765.4957264957266,
+              849.0
+            ],
+            "b": [
+              850.0,
+              760.0
+            ],
+            "bulge": -0.33380172930350815
+          }
+        },
+        "interval": [
+          0.0,
+          1.0
+        ],
+        "start": [
+          765.4957264957266,
+          849.0
+        ],
+        "end": [
+          850.0,
+          760.0
+        ],
+        "boundary_id": 0,
+        "component_id": 0,
+        "transform": "normalization.source_to_working",
+        "errors": {
+          "scope": "owning_boundary",
+          "sampled_hausdorff": 0.9910306550475344,
+          "rms": 0.32297783499925514,
+          "hausdorff_upper_bound": 1.4160306650475343,
+          "forward_max": 0.9910306550475344,
+          "backward_max": 0.9615384615384528
+        },
+        "tolerances": {
+          "flatten": 0.05,
+          "sample_spacing": 0.75,
+          "join": 1e-07,
+          "floating_margin": 1e-08
+        }
+      },
+      {
+        "kind": "line",
+        "params": {
+          "a": [
+            850.0,
+            760.0
+          ],
+          "b": [
+            850.0,
+            410.0
+          ]
+        },
+        "interval": [
+          0.0,
+          1.0
+        ],
+        "start": [
+          850.0,
+          760.0
+        ],
+        "end": [
+          850.0,
+          410.0
+        ],
+        "boundary_id": 0,
+        "component_id": 0,
+        "transform": "normalization.source_to_working",
+        "errors": {
+          "scope": "owning_boundary",
+          "sampled_hausdorff": 0.9910306550475344,
+          "rms": 0.32297783499925514,
+          "hausdorff_upper_bound": 1.4160306650475343,
+          "forward_max": 0.9910306550475344,
+          "backward_max": 0.9615384615384528
+        },
+        "tolerances": {
+          "flatten": 0.05,
+          "sample_spacing": 0.75,
+          "join": 1e-07,
+          "floating_margin": 1e-08
+        }
+      },
+      {
+        "kind": "line",
+        "params": {
+          "a": [
+            850.0,
+            410.0
+          ],
+          "b": [
+            849.0,
+            234.50427350427344
+          ]
+        },
+        "interval": [
+          0.0,
+          1.0
+        ],
+        "start": [
+          850.0,
+          410.0
+        ],
+        "end": [
+          849.0,
+          234.50427350427344
+        ],
+        "boundary_id": 0,
+        "component_id": 0,
+        "transform": "normalization.source_to_working",
+        "errors": {
+          "scope": "owning_boundary",
+          "sampled_hausdorff": 0.9910306550475344,
+          "rms": 0.32297783499925514,
+          "hausdorff_upper_bound": 1.4160306650475343,
+          "forward_max": 0.9910306550475344,
+          "backward_max": 0.9615384615384528
+        },
+        "tolerances": {
+          "flatten": 0.05,
+          "sample_spacing": 0.75,
+          "join": 1e-07,
+          "floating_margin": 1e-08
+        }
+      },
+      {
+        "kind": "circle",
+        "params": {
+          "arc": {
+            "a": [
+              849.0,
+              234.50427350427344
+            ],
+            "b": [
+              760.0,
+              150.0
+            ],
+            "bulge": -0.3338017293579024
+          }
+        },
+        "interval": [
+          0.0,
+          1.0
+        ],
+        "start": [
+          849.0,
+          234.50427350427344
+        ],
+        "end": [
+          760.0,
+          150.0
+        ],
+        "boundary_id": 0,
+        "component_id": 0,
+        "transform": "normalization.source_to_working",
+        "errors": {
+          "scope": "owning_boundary",
+          "sampled_hausdorff": 0.9910306550475344,
+          "rms": 0.32297783499925514,
+          "hausdorff_upper_bound": 1.4160306650475343,
+          "forward_max": 0.9910306550475344,
+          "backward_max": 0.9615384615384528
+        },
+        "tolerances": {
+          "flatten": 0.05,
+          "sample_spacing": 0.75,
+          "join": 1e-07,
+          "floating_margin": 1e-08
+        }
+      },
+      {
+        "kind": "line",
+        "params": {
+          "a": [
+            760.0,
+            150.0
+          ],
+          "b": [
+            410.0,
+            150.0
+          ]
+        },
+        "interval": [
+          0.0,
+          1.0
+        ],
+        "start": [
+          760.0,
+          150.0
+        ],
+        "end": [
+          410.0,
+          150.0
+        ],
+        "boundary_id": 0,
+        "component_id": 0,
+        "transform": "normalization.source_to_working",
+        "errors": {
+          "scope": "owning_boundary",
+          "sampled_hausdorff": 0.9910306550475344,
+          "rms": 0.32297783499925514,
+          "hausdorff_upper_bound": 1.4160306650475343,
+          "forward_max": 0.9910306550475344,
+          "backward_max": 0.9615384615384528
+        },
+        "tolerances": {
+          "flatten": 0.05,
+          "sample_spacing": 0.75,
+          "join": 1e-07,
+          "floating_margin": 1e-08
+        }
+      },
+      {
+        "kind": "line",
+        "params": {
+          "a": [
+            410.0,
+            150.0
+          ],
+          "b": [
+            234.50427350427344,
+            151.0
+          ]
+        },
+        "interval": [
+          0.0,
+          1.0
+        ],
+        "start": [
+          410.0,
+          150.0
+        ],
+        "end": [
+          234.50427350427344,
+          151.0
+        ],
+        "boundary_id": 0,
+        "component_id": 0,
+        "transform": "normalization.source_to_working",
+        "errors": {
+          "scope": "owning_boundary",
+          "sampled_hausdorff": 0.9910306550475344,
+          "rms": 0.32297783499925514,
+          "hausdorff_upper_bound": 1.4160306650475343,
+          "forward_max": 0.9910306550475344,
+          "backward_max": 0.9615384615384528
+        },
+        "tolerances": {
+          "flatten": 0.05,
+          "sample_spacing": 0.75,
+          "join": 1e-07,
+          "floating_margin": 1e-08
+        }
+      },
+      {
+        "kind": "circle",
+        "params": {
+          "arc": {
+            "a": [
+              234.50427350427344,
+              151.0
+            ],
+            "b": [
+              150.0,
+              240.0
+            ],
+            "bulge": -0.33380172924055385
+          }
+        },
+        "interval": [
+          0.0,
+          1.0
+        ],
+        "start": [
+          234.50427350427344,
+          151.0
+        ],
+        "end": [
+          150.0,
+          240.0
+        ],
+        "boundary_id": 0,
+        "component_id": 0,
+        "transform": "normalization.source_to_working",
+        "errors": {
+          "scope": "owning_boundary",
+          "sampled_hausdorff": 0.9910306550475344,
+          "rms": 0.32297783499925514,
+          "hausdorff_upper_bound": 1.4160306650475343,
+          "forward_max": 0.9910306550475344,
+          "backward_max": 0.9615384615384528
+        },
+        "tolerances": {
+          "flatten": 0.05,
+          "sample_spacing": 0.75,
+          "join": 1e-07,
+          "floating_margin": 1e-08
+        }
+      },
+      {
+        "kind": "line",
+        "params": {
+          "a": [
+            150.0,
+            240.0
+          ],
+          "b": [
+            150.0,
+            590.0
+          ]
+        },
+        "interval": [
+          0.0,
+          1.0
+        ],
+        "start": [
+          150.0,
+          240.0
+        ],
+        "end": [
+          150.0,
+          590.0
+        ],
+        "boundary_id": 0,
+        "component_id": 0,
+        "transform": "normalization.source_to_working",
+        "errors": {
+          "scope": "owning_boundary",
+          "sampled_hausdorff": 0.9910306550475344,
+          "rms": 0.32297783499925514,
+          "hausdorff_upper_bound": 1.4160306650475343,
+          "forward_max": 0.9910306550475344,
+          "backward_max": 0.9615384615384528
+        },
+        "tolerances": {
+          "flatten": 0.05,
+          "sample_spacing": 0.75,
+          "join": 1e-07,
+          "floating_margin": 1e-08
+        }
+      },
+      {
+        "kind": "line",
+        "params": {
+          "a": [
+            150.0,
+            590.0
+          ],
+          "b": [
+            151.0,
+            765.4957264957266
+          ]
+        },
+        "interval": [
+          0.0,
+          1.0
+        ],
+        "start": [
+          150.0,
+          590.0
+        ],
+        "end": [
+          151.0,
+          765.4957264957266
+        ],
+        "boundary_id": 0,
+        "component_id": 0,
+        "transform": "normalization.source_to_working",
+        "errors": {
+          "scope": "owning_boundary",
+          "sampled_hausdorff": 0.9910306550475344,
+          "rms": 0.32297783499925514,
+          "hausdorff_upper_bound": 1.4160306650475343,
+          "forward_max": 0.9910306550475344,
+          "backward_max": 0.9615384615384528
+        },
+        "tolerances": {
+          "flatten": 0.05,
+          "sample_spacing": 0.75,
+          "join": 1e-07,
+          "floating_margin": 1e-08
+        }
+      },
+      {
+        "kind": "circle",
+        "params": {
+          "arc": {
+            "a": [
+              151.0,
+              765.4957264957266
+            ],
+            "b": [
+              240.0,
+              850.0
+            ],
+            "bulge": -0.3338017293222322
+          }
+        },
+        "interval": [
+          0.0,
+          1.0
+        ],
+        "start": [
+          151.0,
+          765.4957264957266
+        ],
+        "end": [
+          240.0,
+          850.0
+        ],
+        "boundary_id": 0,
+        "component_id": 0,
+        "transform": "normalization.source_to_working",
+        "errors": {
+          "scope": "owning_boundary",
+          "sampled_hausdorff": 0.9910306550475344,
+          "rms": 0.32297783499925514,
+          "hausdorff_upper_bound": 1.4160306650475343,
+          "forward_max": 0.9910306550475344,
+          "backward_max": 0.9615384615384528
+        },
+        "tolerances": {
+          "flatten": 0.05,
+          "sample_spacing": 0.75,
+          "join": 1e-07,
+          "floating_margin": 1e-08
+        }
+      }
+    ],
+    "equations": [
+      "r(t)=(240, 850)+(t-(0))/(1)*(350, 0); 0<=t<=1; yön 0 -> 1",
+      "r(t)=(590, 850)+(t-(0))/(1)*(175.49572649572656, -1); 0<=t<=1; yön 0 -> 1",
+      "r(t)=((1-u)² A+2u(1-u)V+u² B)/((1-u)²+2w*u(1-u)+u²); u=(t-a)/(b-a); A=[765.4957264957266, 849.0]; B=[850.0, 760.0]; s=-0.33380172930350815; J=(-(B_y-A_y),B_x-A_x); w=(1-s²)/(1+s²); V=w(A+B)/2-s*J/(1+s²); 0<=t<=1; yön 0 -> 1",
+      "r(t)=(850, 760)+(t-(0))/(1)*(0, -350); 0<=t<=1; yön 0 -> 1",
+      "r(t)=(850, 410)+(t-(0))/(1)*(-1, -175.49572649572656); 0<=t<=1; yön 0 -> 1",
+      "r(t)=((1-u)² A+2u(1-u)V+u² B)/((1-u)²+2w*u(1-u)+u²); u=(t-a)/(b-a); A=[849.0, 234.50427350427344]; B=[760.0, 150.0]; s=-0.33380172935790242; J=(-(B_y-A_y),B_x-A_x); w=(1-s²)/(1+s²); V=w(A+B)/2-s*J/(1+s²); 0<=t<=1; yön 0 -> 1",
+      "r(t)=(760, 150)+(t-(0))/(1)*(-350, 0); 0<=t<=1; yön 0 -> 1",
+      "r(t)=(410, 150)+(t-(0))/(1)*(-175.49572649572656, 1); 0<=t<=1; yön 0 -> 1",
+      "r(t)=((1-u)² A+2u(1-u)V+u² B)/((1-u)²+2w*u(1-u)+u²); u=(t-a)/(b-a); A=[234.50427350427344, 151.0]; B=[150.0, 240.0]; s=-0.33380172924055385; J=(-(B_y-A_y),B_x-A_x); w=(1-s²)/(1+s²); V=w(A+B)/2-s*J/(1+s²); 0<=t<=1; yön 0 -> 1",
+      "r(t)=(150, 240)+(t-(0))/(1)*(0, 350); 0<=t<=1; yön 0 -> 1",
+      "r(t)=(150, 590)+(t-(0))/(1)*(1, 175.49572649572656); 0<=t<=1; yön 0 -> 1",
+      "r(t)=((1-u)² A+2u(1-u)V+u² B)/((1-u)²+2w*u(1-u)+u²); u=(t-a)/(b-a); A=[151.0, 765.4957264957266]; B=[240.0, 850.0]; s=-0.33380172932223218; J=(-(B_y-A_y),B_x-A_x); w=(1-s²)/(1+s²); V=w(A+B)/2-s*J/(1+s²); 0<=t<=1; yön 0 -> 1"
+    ],
+    "complexity": {
+      "score_bits": 5344,
+      "piece_count": 12,
+      "free_parameters_upper": 52,
+      "stored_real_count": 76,
+      "stored_integer_count": 12,
+      "control_points": 12,
+      "knots": 0,
+      "max_degree": 2,
+      "degree_note": "Çember/elips: örtük derece; Fourier: 0 polinom dışı anlamındadır, harmonik sayısı katsayılardan bilinir; diğerleri: parametrik polinom derecesi.",
+      "interval_constraints": 12,
+      "encoding": "fixed64_v1",
+      "parameter_count_note": "Paylaşılan uç/periodiklik kısıtları düşülmemiş üst sayım."
+    },
+    "metrics": {
+      "sampled_hausdorff": 0.9910306550475344,
+      "hausdorff_upper_bound": 1.4160306650475343,
+      "bound_kind": "Lipschitz_sampling_plus_curve_bound_float64",
+      "verified_numerical_certificate": true,
+      "distance_backend": "GEOS_STRtree_segments",
+      "evaluation_workers": 1,
+      "reference_cache_reused": false,
+      "rms": 0.32297783499925514,
+      "area_difference": 315.34957686654525,
+      "area_reference": 481428.0,
+      "area_model_polygonized": 481112.65042313345,
+      "area_curve_uncertainty_bound": 262.8635881100842,
+      "sample_count": 7572,
+      "max_sample_gap": 0.75,
+      "flatten_tolerance": 0.05,
+      "topology": {
+        "preserved": true,
+        "reasons": [],
+        "scope": "polygonized_with_inter_ring_clearance",
+        "analytic_isotopy_proven": true,
+        "component_count": 1,
+        "hole_count": 0
+      },
+      "join_max_gap": 0.0,
+      "join_max_tangent_angle_degrees": 9.239603986850364,
+      "tangent_continuity_required": false,
+      "per_boundary": {
+        "0": {
+          "sampled_hausdorff": 0.9910306550475344,
+          "rms": 0.32297783499925514,
+          "hausdorff_upper_bound": 1.4160306650475343,
+          "forward_max": 0.9910306550475344,
+          "backward_max": 0.9615384615384528
+        }
+      },
+      "elapsed_seconds": 0.04885400000057416,
+      "certification": {
+        "certificate_version": "1.3",
+        "arithmetic": "outward_binary64_intervals_and_exact_rationals",
+        "coefficient_semantics": "stored binary64 values interpreted as exact dyadic rationals",
+        "verified_numerical_certificate": true,
+        "analytic_isotopy_proven": true,
+        "status": "proven",
+        "reasons": [],
+        "spline_conversion": "exact_rational_de_Boor_Hermite",
+        "rational_arc_semantics": "positive homogeneous quadratic Bernstein; exact shared dyadic endpoints",
+        "full_conic_semantics": "canonical full-turn interval; exact symbolic 2*pi phase, dyadic radii and rotation angle",
+        "hausdorff_upper_bound": 1.2533654029205368,
+        "within_tolerance": true,
+        "curve_to_polygon_bound": 0.011115411394519067,
+        "sample_spacing": 0.5,
+        "topology_method": "rational_monotone_Bernstein_hulls_and_exact_Jordan_nesting"
+      }
+    }
+  },
+  "topology": {
+    "rings": [
+      {
+        "id": 0,
+        "kind": "outer",
+        "parent_id": null,
+        "component_id": 0,
+        "closed": true
+      }
+    ],
+    "component_count": 1,
+    "hole_count": 0,
+    "contacts": [],
+    "connectivity": "foreground_4_neighbors"
+  },
+  "normalization": {
+    "raw_source_size": [
+      1000,
+      1000
+    ],
+    "exif_orientation": 1,
+    "exif_applied": false,
+    "source_size": [
+      1000,
+      1000
+    ],
+    "canvas_size": [
+      1000,
+      1000
+    ],
+    "resized_size": [
+      1000,
+      1000
+    ],
+    "scale_x": 1.0,
+    "scale_y": 1.0,
+    "offset_top_left": [
+      0,
+      0
+    ],
+    "coordinate_domain": [
+      0,
+      1000
+    ],
+    "coordinate_convention": "x sağa, y yukarı; piksel (r,c) = [c,c+1] × [999-r,1000-r]",
+    "foreground_pixels": 481428,
+    "resampling": "threshold_then_nearest",
+    "threshold_method": "global_inclusive",
+    "threshold": 127,
+    "pixel_geometry": "unit_square_edges",
+    "source_transform_applies_to": "EXIF-oriented continuous pixel edges",
+    "source_to_working": [
+      [
+        1.0,
+        0,
+        0
+      ],
+      [
+        0,
+        -1.0,
+        1000
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "working_to_source": [
+      [
+        1.0,
+        0,
+        0.0
+      ],
+      [
+        0,
+        -1.0,
+        1000.0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "source": {
+    "sha256": "d8c8141bda90ddb5e0a16cc5f1d59f946e986fbf019c5940b3aec305d48b2dba",
+    "path": "D:\\Dev\\Personal\\sekilden-denkleme\\examples\\arc_stress\\illustrations\\rounded_rectangle.png"
+  },
+  "implicit_polynomial": null,
+  "entity_mapping": [
+    {
+      "piece": 0,
+      "boundary": 0,
+      "native_curve": "line",
+      "edge_count": 1,
+      "reversed": false,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "face_wire_reversed": true
+    },
+    {
+      "piece": 1,
+      "boundary": 0,
+      "native_curve": "line",
+      "edge_count": 1,
+      "reversed": false,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "face_wire_reversed": true
+    },
+    {
+      "piece": 2,
+      "boundary": 0,
+      "native_curve": "arc",
+      "edge_count": 1,
+      "reversed": true,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "face_wire_reversed": true
+    },
+    {
+      "piece": 3,
+      "boundary": 0,
+      "native_curve": "line",
+      "edge_count": 1,
+      "reversed": false,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "face_wire_reversed": true
+    },
+    {
+      "piece": 4,
+      "boundary": 0,
+      "native_curve": "line",
+      "edge_count": 1,
+      "reversed": false,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "face_wire_reversed": true
+    },
+    {
+      "piece": 5,
+      "boundary": 0,
+      "native_curve": "arc",
+      "edge_count": 1,
+      "reversed": true,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "face_wire_reversed": true
+    },
+    {
+      "piece": 6,
+      "boundary": 0,
+      "native_curve": "line",
+      "edge_count": 1,
+      "reversed": false,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "face_wire_reversed": true
+    },
+    {
+      "piece": 7,
+      "boundary": 0,
+      "native_curve": "line",
+      "edge_count": 1,
+      "reversed": false,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "face_wire_reversed": true
+    },
+    {
+      "piece": 8,
+      "boundary": 0,
+      "native_curve": "arc",
+      "edge_count": 1,
+      "reversed": true,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "face_wire_reversed": true
+    },
+    {
+      "piece": 9,
+      "boundary": 0,
+      "native_curve": "line",
+      "edge_count": 1,
+      "reversed": false,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "face_wire_reversed": true
+    },
+    {
+      "piece": 10,
+      "boundary": 0,
+      "native_curve": "line",
+      "edge_count": 1,
+      "reversed": false,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "face_wire_reversed": true
+    },
+    {
+      "piece": 11,
+      "boundary": 0,
+      "native_curve": "arc",
+      "edge_count": 1,
+      "reversed": true,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "face_wire_reversed": true
+    }
+  ],
+  "native_curves": [
+    {
+      "kind": "line",
+      "params": {
+        "a": [
+          24.0,
+          85.0
+        ],
+        "b": [
+          59.0,
+          85.0
+        ]
+      },
+      "source_piece": 0,
+      "boundary_id": 0,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "reversed": false
+    },
+    {
+      "kind": "line",
+      "params": {
+        "a": [
+          59.0,
+          85.0
+        ],
+        "b": [
+          76.54957264957265,
+          84.9
+        ]
+      },
+      "source_piece": 1,
+      "boundary_id": 0,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "reversed": false
+    },
+    {
+      "kind": "arc",
+      "params": {
+        "center": [
+          74.85186164014227,
+          74.8262646348722
+        ],
+        "radius": 10.215790076062039,
+        "start": 0.11514852691010664,
+        "end": 1.4038367329763837
+      },
+      "source_piece": 2,
+      "boundary_id": 0,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "reversed": true
+    },
+    {
+      "kind": "line",
+      "params": {
+        "a": [
+          85.0,
+          76.0
+        ],
+        "b": [
+          85.0,
+          41.0
+        ]
+      },
+      "source_piece": 3,
+      "boundary_id": 0,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "reversed": false
+    },
+    {
+      "kind": "line",
+      "params": {
+        "a": [
+          85.0,
+          41.0
+        ],
+        "b": [
+          84.9,
+          23.450427350427347
+        ]
+      },
+      "source_piece": 4,
+      "boundary_id": 0,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "reversed": false
+    },
+    {
+      "kind": "arc",
+      "params": {
+        "center": [
+          74.82626463601844,
+          25.148138358650513
+        ],
+        "radius": 10.21579007473112,
+        "start": -1.455647799982672,
+        "end": -0.16695959372063074
+      },
+      "source_piece": 5,
+      "boundary_id": 0,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "reversed": true
+    },
+    {
+      "kind": "line",
+      "params": {
+        "a": [
+          76.0,
+          15.0
+        ],
+        "b": [
+          41.0,
+          15.0
+        ]
+      },
+      "source_piece": 6,
+      "boundary_id": 0,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "reversed": false
+    },
+    {
+      "kind": "line",
+      "params": {
+        "a": [
+          41.0,
+          15.0
+        ],
+        "b": [
+          23.450427350427347,
+          15.100000000000001
+        ]
+      },
+      "source_piece": 7,
+      "boundary_id": 0,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "reversed": false
+    },
+    {
+      "kind": "arc",
+      "params": {
+        "center": [
+          25.14813836125493,
+          25.17373536645442
+        ],
+        "radius": 10.215790077602405,
+        "start": -3.026444126566401,
+        "end": -1.7377559207266957
+      },
+      "source_piece": 8,
+      "boundary_id": 0,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "reversed": true
+    },
+    {
+      "kind": "line",
+      "params": {
+        "a": [
+          15.0,
+          24.0
+        ],
+        "b": [
+          15.0,
+          59.0
+        ]
+      },
+      "source_piece": 9,
+      "boundary_id": 0,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "reversed": false
+    },
+    {
+      "kind": "line",
+      "params": {
+        "a": [
+          15.0,
+          59.0
+        ],
+        "b": [
+          15.100000000000001,
+          76.54957264957265
+        ]
+      },
+      "source_piece": 10,
+      "boundary_id": 0,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "reversed": false
+    },
+    {
+      "kind": "arc",
+      "params": {
+        "center": [
+          25.173735364733233,
+          74.85186164055783
+        ],
+        "radius": 10.215790075603898,
+        "start": 1.685944853671309,
+        "end": 2.9746330598049737
+      },
+      "source_piece": 11,
+      "boundary_id": 0,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "reversed": true
+    }
+  ],
+  "cad_complexity": {
+    "native_curve_count": 12,
+    "native_control_points": 0,
+    "polyline_vertices": 0,
+    "reader_edge_or_entity_count": 12,
+    "cad_file_bytes": 10664,
+    "source_model_score_bits": 5344
+  },
+  "approximated_source_pieces": [],
+  "reader": {
+    "reader": "Open CASCADE/OCP",
+    "reader_version": "7.9.3.1",
+    "edge_count": 12,
+    "wire_count": 1,
+    "max_join_gap": 6.775165639430848e-13,
+    "internal_reader_unit": "mm"
+  },
+  "transfer_validation": {
+    "method": "bidirectional_finite_segment_convex_witness_cover_float64",
+    "transfer_upper_estimate": 0.009859341801760941,
+    "tolerance": 0.01,
+    "unit": "mm",
+    "curve_polygon_budget_each": 0.00125,
+    "numeric_margin": 1e-10,
+    "witness_segments": 1744,
+    "boundary_count": 1,
+    "polygon_nesting_preserved": true,
+    "max_closure_gap": 0.0,
+    "max_abs_z": 0.0,
+    "join_margin": 6.775165639430848e-13,
+    "reference_closure_roundoff": 0.0,
+    "verified_numerical_certificate": false,
+    "analytic_isotopy_proven_for_cad_file": false,
+    "scope": "CAD okuyucusundan tekrar alınan geometri; float64 kontrollü poligonlar. Kaynak model sertifikasından ayrıdır."
+  },
+  "physical_error_summary": {
+    "unit": "mm",
+    "source_verified_upper_scaled": 0.12533654029205368,
+    "cad_transfer_upper_estimate": 0.009859341801760941,
+    "combined_pixel_boundary_upper_estimate": 0.1351958820938146,
+    "combined_verified_numerical_certificate": false,
+    "ideal_object_error_known": false
+  },
+  "original_model_certificate_scope": "source model and normalized pixel reference; does not certify the CAD file"
+}

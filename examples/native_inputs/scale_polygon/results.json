@@ -1,0 +1,259 @@
+[
+ {
+  "epsilon": 1.0,
+  "pixels": 1048576,
+  "rings": 12,
+  "reference_edges": 5720,
+  "largest_ring_edges": 1856,
+  "contacts": 0,
+  "trace_seconds": 0.08734710002318025,
+  "topology_seconds": 0.006389799993485212,
+  "polygon": {
+   "pieces": 418,
+   "arcs": 0,
+   "optimal_in_class": true,
+   "search_seconds": 1.2945372999529354,
+   "certify_seconds": 1.6545447999960743,
+   "certificate_status": "proven",
+   "certified_upper_bound": 0.999561337746769,
+   "topology_method": "rational_monotone_Bernstein_hulls_and_exact_Jordan_nesting",
+   "certificate_reasons": []
+  },
+  "kind": "terrain",
+  "size": 1024
+ },
+ {
+  "epsilon": 2.0,
+  "pixels": 1048576,
+  "rings": 12,
+  "reference_edges": 5720,
+  "largest_ring_edges": 1856,
+  "contacts": 0,
+  "trace_seconds": 0.12337270000716671,
+  "topology_seconds": 0.010940600011963397,
+  "polygon": {
+   "pieces": 240,
+   "arcs": 0,
+   "optimal_in_class": true,
+   "search_seconds": 1.8217860999866389,
+   "certify_seconds": 1.375415000016801,
+   "certificate_status": "proven",
+   "certified_upper_bound": 1.9994474358404366,
+   "topology_method": "rational_monotone_Bernstein_hulls_and_exact_Jordan_nesting",
+   "certificate_reasons": []
+  },
+  "kind": "terrain",
+  "size": 1024
+ },
+ {
+  "epsilon": 1.0,
+  "pixels": 4194304,
+  "rings": 13,
+  "reference_edges": 19952,
+  "largest_ring_edges": 12478,
+  "contacts": 0,
+  "trace_seconds": 0.4559719000244513,
+  "topology_seconds": 0.0914894999586977,
+  "polygon": {
+   "pieces": 1396,
+   "arcs": 0,
+   "optimal_in_class": true,
+   "search_seconds": 4.264777500007767,
+   "certify_seconds": 5.777541799994651,
+   "certificate_status": "proven",
+   "certified_upper_bound": 0.9999276818588959,
+   "topology_method": "rational_monotone_Bernstein_hulls_and_exact_Jordan_nesting",
+   "certificate_reasons": []
+  },
+  "kind": "terrain",
+  "size": 2048
+ },
+ {
+  "epsilon": 2.0,
+  "pixels": 4194304,
+  "rings": 13,
+  "reference_edges": 19952,
+  "largest_ring_edges": 12478,
+  "contacts": 0,
+  "trace_seconds": 0.431635599990841,
+  "topology_seconds": 0.05265070003224537,
+  "polygon": {
+   "pieces": 779,
+   "arcs": 0,
+   "optimal_in_class": true,
+   "search_seconds": 5.379694200004451,
+   "certify_seconds": 4.61829079996096,
+   "certificate_status": "proven",
+   "certified_upper_bound": 1.9992796230799568,
+   "topology_method": "rational_monotone_Bernstein_hulls_and_exact_Jordan_nesting",
+   "certificate_reasons": []
+  },
+  "kind": "terrain",
+  "size": 2048
+ },
+ {
+  "epsilon": 1.0,
+  "pixels": 16777216,
+  "rings": 82,
+  "reference_edges": 90432,
+  "largest_ring_edges": 27808,
+  "contacts": 0,
+  "trace_seconds": 1.5859599999967031,
+  "topology_seconds": 0.47565759997814894,
+  "polygon": {
+   "pieces": 6155,
+   "arcs": 0,
+   "optimal_in_class": true,
+   "search_seconds": 20.883962200023234,
+   "certify_seconds": 37.52202049997868,
+   "certificate_status": "proven",
+   "certified_upper_bound": 0.9999278927949495,
+   "topology_method": "rational_monotone_Bernstein_hulls_and_exact_Jordan_nesting",
+   "certificate_reasons": []
+  },
+  "kind": "terrain",
+  "size": 4096
+ },
+ {
+  "epsilon": 2.0,
+  "pixels": 16777216,
+  "rings": 82,
+  "reference_edges": 90432,
+  "largest_ring_edges": 27808,
+  "contacts": 0,
+  "trace_seconds": 1.7772412999765947,
+  "topology_seconds": 0.54274850001093,
+  "polygon": {
+   "pieces": 3440,
+   "arcs": 0,
+   "optimal_in_class": true,
+   "search_seconds": 30.83103929995559,
+   "certify_seconds": 27.732238200027496,
+   "certificate_status": "proven",
+   "certified_upper_bound": 1.9999466055690227,
+   "topology_method": "rational_monotone_Bernstein_hulls_and_exact_Jordan_nesting",
+   "certificate_reasons": []
+  },
+  "kind": "terrain",
+  "size": 4096
+ },
+ {
+  "epsilon": 1.0,
+  "pixels": 67108864,
+  "rings": 285,
+  "reference_edges": 370558,
+  "largest_ring_edges": 85384,
+  "contacts": 0,
+  "trace_seconds": 5.66488080000272,
+  "topology_seconds": 5.554660900030285,
+  "polygon": {
+   "pieces": 25184,
+   "arcs": 0,
+   "optimal_in_class": true,
+   "search_seconds": 128.8505567999673,
+   "certify_seconds": 26.146849100012332,
+   "certificate_status": "undetermined",
+   "certified_upper_bound": null,
+   "topology_method": null,
+   "certificate_reasons": [
+    "Sertifika 500.000 örnek sınırını aşıyor."
+   ]
+  },
+  "kind": "terrain",
+  "size": 8192
+ },
+ {
+  "epsilon": 2.0,
+  "pixels": 67108864,
+  "rings": 285,
+  "reference_edges": 370558,
+  "largest_ring_edges": 85384,
+  "contacts": 0,
+  "trace_seconds": 7.5808009000029415,
+  "topology_seconds": 7.671469199995045,
+  "polygon": {
+   "pieces": 14025,
+   "arcs": 0,
+   "optimal_in_class": true,
+   "search_seconds": 199.15500860003522,
+   "certify_seconds": 342.27003229997354,
+   "certificate_status": "proven",
+   "certified_upper_bound": 1.999912751558814,
+   "topology_method": "rational_monotone_Bernstein_hulls_and_exact_Jordan_nesting",
+   "certificate_reasons": []
+  },
+  "kind": "terrain",
+  "size": 8192
+ },
+ {
+  "epsilon": 1.0,
+  "pixels": 1048576,
+  "rings": 34,
+  "reference_edges": 8678,
+  "largest_ring_edges": 588,
+  "contacts": 1,
+  "trace_seconds": 0.176118100003805,
+  "topology_seconds": 0.020874999987427145,
+  "polygon": {
+   "pieces": 731,
+   "arcs": 0,
+   "optimal_in_class": true,
+   "search_seconds": 2.346430599980522,
+   "certify_seconds": 3.4582605000468902,
+   "certificate_status": "proven",
+   "certified_upper_bound": 0.9992010487635372,
+   "topology_method": "exact_contact_preserving_polygon_embedding",
+   "certificate_reasons": []
+  },
+  "kind": "drawing",
+  "size": 1024
+ },
+ {
+  "epsilon": 2.0,
+  "pixels": 1048576,
+  "rings": 34,
+  "reference_edges": 8678,
+  "largest_ring_edges": 588,
+  "contacts": 1,
+  "trace_seconds": 0.11202509998111054,
+  "topology_seconds": 0.014490499976091087,
+  "polygon": {
+   "pieces": 450,
+   "arcs": 0,
+   "optimal_in_class": true,
+   "search_seconds": 158.10928889998468,
+   "certify_seconds": 2.530620599980466,
+   "certificate_status": "proven",
+   "certified_upper_bound": 1.9924283123127802,
+   "topology_method": "exact_contact_preserving_polygon_embedding",
+   "certificate_reasons": []
+  },
+  "kind": "drawing",
+  "size": 1024
+ },
+ {
+  "epsilon": 1.0,
+  "pixels": 4194304,
+  "rings": 121,
+  "reference_edges": 38942,
+  "largest_ring_edges": 588,
+  "contacts": 2,
+  "trace_seconds": 0.8036277000210248,
+  "topology_seconds": 0.1347628000075929,
+  "polygon": {
+   "pieces": 2969,
+   "arcs": 0,
+   "optimal_in_class": false,
+   "search_seconds": 2176.739431999973,
+   "certify_seconds": 3.9222944999928586,
+   "certificate_status": "undetermined",
+   "certified_upper_bound": 0.9997756765920468,
+   "topology_method": null,
+   "certificate_reasons": [
+    "Bernstein/Jordan yeter koşulları sağlanamadı; genel topoloji sonucu çıkarılmaz."
+   ]
+  },
+  "kind": "drawing",
+  "size": 2048
+ }
+]

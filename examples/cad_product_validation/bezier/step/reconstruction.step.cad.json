@@ -1,0 +1,677 @@
+{
+  "schema_version": "1.0",
+  "application_version": "2.5.0",
+  "format": "step",
+  "cad_file": "reconstruction.step",
+  "cad_sha256": "f0d4ffaafbee1a5170c300606edc2f719700b6cb234ac0e7f06882fed2de5ef7",
+  "cad_options": {
+    "unit": "mm",
+    "scale": 0.1,
+    "tolerance": 0.01,
+    "allow_approximation": false
+  },
+  "coordinate_contract": {
+    "plane": "XY; z=0",
+    "axis": "x_right_y_up",
+    "mapping": "CAD coordinates = working coordinates * scale; origin unchanged",
+    "physical_calibration": "user_assigned_scale_not_inferred_from_image"
+  },
+  "representation": "DXF: grouped planar curves; STEP/IGES: planar faces with hole wires; no solids or native dimensional constraint/history tree",
+  "orientation_contract": "STEP/IGES face normal +Z, outer wires CCW and hole wires CW; source traversal remains in selected_model, face reversals in entity_mapping. Readers may reparameterize native curves.",
+  "selected_model": {
+    "id": "bezier-0.65",
+    "family": "bezier",
+    "pieces": [
+      {
+        "kind": "bezier",
+        "params": {
+          "controls": [
+            [
+              474.0,
+              762.0
+            ],
+            [
+              633.3524743080379,
+              772.8109100692996
+            ],
+            [
+              767.4627863416332,
+              678.3943901334844
+            ],
+            [
+              779.0,
+              525.0
+            ]
+          ]
+        },
+        "interval": [
+          0.0,
+          1.0
+        ],
+        "start": [
+          474.0,
+          762.0
+        ],
+        "end": [
+          779.0,
+          525.0
+        ],
+        "boundary_id": 0,
+        "component_id": 0,
+        "transform": "normalization.source_to_working",
+        "errors": {
+          "fitting_rank": 2,
+          "fitting_condition": 2.705823964593252,
+          "solver": "chord_parameter_linear_least_squares",
+          "scope": "owning_boundary",
+          "sampled_hausdorff": 1.1679310700981336,
+          "rms": 0.42249738305846796,
+          "hausdorff_upper_bound": 1.5929310800981336,
+          "forward_max": 1.1679310700981336,
+          "backward_max": 1.0313134079038377
+        },
+        "tolerances": {
+          "flatten": 0.05,
+          "sample_spacing": 0.75,
+          "join": 1e-07,
+          "floating_margin": 1e-08
+        }
+      },
+      {
+        "kind": "bezier",
+        "params": {
+          "controls": [
+            [
+              779.0,
+              525.0
+            ],
+            [
+              795.0259807585379,
+              361.6482142264891
+            ],
+            [
+              674.1718827363467,
+              248.50378009543795
+            ],
+            [
+              526.0,
+              238.0
+            ]
+          ]
+        },
+        "interval": [
+          0.0,
+          1.0
+        ],
+        "start": [
+          779.0,
+          525.0
+        ],
+        "end": [
+          526.0,
+          238.0
+        ],
+        "boundary_id": 0,
+        "component_id": 0,
+        "transform": "normalization.source_to_working",
+        "errors": {
+          "fitting_rank": 2,
+          "fitting_condition": 2.7117584325425144,
+          "solver": "chord_parameter_linear_least_squares",
+          "scope": "owning_boundary",
+          "sampled_hausdorff": 1.1679310700981336,
+          "rms": 0.42249738305846796,
+          "hausdorff_upper_bound": 1.5929310800981336,
+          "forward_max": 1.1679310700981336,
+          "backward_max": 1.0313134079038377
+        },
+        "tolerances": {
+          "flatten": 0.05,
+          "sample_spacing": 0.75,
+          "join": 1e-07,
+          "floating_margin": 1e-08
+        }
+      },
+      {
+        "kind": "bezier",
+        "params": {
+          "controls": [
+            [
+              526.0,
+              238.0
+            ],
+            [
+              366.647525691962,
+              227.18908993070045
+            ],
+            [
+              232.53721365836674,
+              321.6056098665155
+            ],
+            [
+              221.0,
+              475.0
+            ]
+          ]
+        },
+        "interval": [
+          0.0,
+          1.0
+        ],
+        "start": [
+          526.0,
+          238.0
+        ],
+        "end": [
+          221.0,
+          475.0
+        ],
+        "boundary_id": 0,
+        "component_id": 0,
+        "transform": "normalization.source_to_working",
+        "errors": {
+          "fitting_rank": 2,
+          "fitting_condition": 2.705823964593252,
+          "solver": "chord_parameter_linear_least_squares",
+          "scope": "owning_boundary",
+          "sampled_hausdorff": 1.1679310700981336,
+          "rms": 0.42249738305846796,
+          "hausdorff_upper_bound": 1.5929310800981336,
+          "forward_max": 1.1679310700981336,
+          "backward_max": 1.0313134079038377
+        },
+        "tolerances": {
+          "flatten": 0.05,
+          "sample_spacing": 0.75,
+          "join": 1e-07,
+          "floating_margin": 1e-08
+        }
+      },
+      {
+        "kind": "bezier",
+        "params": {
+          "controls": [
+            [
+              221.0,
+              475.0
+            ],
+            [
+              204.9740192414621,
+              638.351785773511
+            ],
+            [
+              325.82811726365344,
+              751.496219904562
+            ],
+            [
+              474.0,
+              762.0
+            ]
+          ]
+        },
+        "interval": [
+          0.0,
+          1.0
+        ],
+        "start": [
+          221.0,
+          475.0
+        ],
+        "end": [
+          474.0,
+          762.0
+        ],
+        "boundary_id": 0,
+        "component_id": 0,
+        "transform": "normalization.source_to_working",
+        "errors": {
+          "fitting_rank": 2,
+          "fitting_condition": 2.7117584325425144,
+          "solver": "chord_parameter_linear_least_squares",
+          "scope": "owning_boundary",
+          "sampled_hausdorff": 1.1679310700981336,
+          "rms": 0.42249738305846796,
+          "hausdorff_upper_bound": 1.5929310800981336,
+          "forward_max": 1.1679310700981336,
+          "backward_max": 1.0313134079038377
+        },
+        "tolerances": {
+          "flatten": 0.05,
+          "sample_spacing": 0.75,
+          "join": 1e-07,
+          "floating_margin": 1e-08
+        }
+      }
+    ],
+    "equations": [
+      "r(t)=sum[k=0..3] binom(3,k)(1-u)^(3-k)u^k P_k; u=(t-a)/(b-a); P=(474, 762), (633.35247430803793, 772.81091006929955), (767.4627863416332, 678.39439013348442), (779, 525); 0<=t<=1; yön 0 -> 1",
+      "r(t)=sum[k=0..3] binom(3,k)(1-u)^(3-k)u^k P_k; u=(t-a)/(b-a); P=(779, 525), (795.02598075853791, 361.64821422648907), (674.17188273634667, 248.50378009543795), (526, 238); 0<=t<=1; yön 0 -> 1",
+      "r(t)=sum[k=0..3] binom(3,k)(1-u)^(3-k)u^k P_k; u=(t-a)/(b-a); P=(526, 238), (366.64752569196202, 227.18908993070045), (232.53721365836674, 321.60560986651552), (221, 475); 0<=t<=1; yön 0 -> 1",
+      "r(t)=sum[k=0..3] binom(3,k)(1-u)^(3-k)u^k P_k; u=(t-a)/(b-a); P=(221, 475), (204.97401924146209, 638.35178577351098), (325.82811726365344, 751.49621990456205), (474, 762); 0<=t<=1; yön 0 -> 1"
+    ],
+    "complexity": {
+      "score_bits": 2720,
+      "piece_count": 4,
+      "free_parameters_upper": 32,
+      "stored_real_count": 40,
+      "stored_integer_count": 4,
+      "control_points": 16,
+      "knots": 0,
+      "max_degree": 3,
+      "degree_note": "Çember/elips: örtük derece; Fourier: 0 polinom dışı anlamındadır, harmonik sayısı katsayılardan bilinir; diğerleri: parametrik polinom derecesi.",
+      "interval_constraints": 4,
+      "encoding": "fixed64_v1",
+      "parameter_count_note": "Paylaşılan uç/periodiklik kısıtları düşülmemiş üst sayım."
+    },
+    "metrics": {
+      "sampled_hausdorff": 1.1679310700981336,
+      "hausdorff_upper_bound": 1.5929310800981336,
+      "bound_kind": "Lipschitz_sampling_plus_curve_bound_float64",
+      "verified_numerical_certificate": true,
+      "distance_backend": "GEOS_STRtree_segments",
+      "evaluation_workers": 1,
+      "reference_cache_reused": false,
+      "rms": 0.42249738305846796,
+      "area_difference": 160.0030136196874,
+      "area_reference": 235176.0,
+      "area_model_polygonized": 235336.0030136197,
+      "area_curve_uncertainty_bound": 172.16031693116125,
+      "sample_count": 5966,
+      "max_sample_gap": 0.75,
+      "flatten_tolerance": 0.05,
+      "topology": {
+        "preserved": true,
+        "reasons": [],
+        "scope": "polygonized_with_inter_ring_clearance",
+        "analytic_isotopy_proven": true,
+        "component_count": 1,
+        "hole_count": 0
+      },
+      "join_max_gap": 0.0,
+      "join_max_tangent_angle_degrees": 1.3019209768919748,
+      "tangent_continuity_required": false,
+      "per_boundary": {
+        "0": {
+          "sampled_hausdorff": 1.1679310700981336,
+          "rms": 0.42249738305846796,
+          "hausdorff_upper_bound": 1.5929310800981336,
+          "forward_max": 1.1679310700981336,
+          "backward_max": 1.0313134079038377
+        }
+      },
+      "elapsed_seconds": 0.056493500000215136,
+      "certification": {
+        "certificate_version": "1.3",
+        "arithmetic": "outward_binary64_intervals_and_exact_rationals",
+        "coefficient_semantics": "stored binary64 values interpreted as exact dyadic rationals",
+        "verified_numerical_certificate": true,
+        "analytic_isotopy_proven": true,
+        "status": "proven",
+        "reasons": [],
+        "spline_conversion": "exact_rational_de_Boor_Hermite",
+        "rational_arc_semantics": "positive homogeneous quadratic Bernstein; exact shared dyadic endpoints",
+        "full_conic_semantics": "canonical full-turn interval; exact symbolic 2*pi phase, dyadic radii and rotation angle",
+        "hausdorff_upper_bound": 1.4360031339982948,
+        "within_tolerance": true,
+        "curve_to_polygon_bound": 0.008021294135970004,
+        "sample_spacing": 0.5,
+        "topology_method": "rational_monotone_Bernstein_hulls_and_exact_Jordan_nesting"
+      }
+    }
+  },
+  "topology": {
+    "rings": [
+      {
+        "id": 0,
+        "kind": "outer",
+        "parent_id": null,
+        "component_id": 0,
+        "closed": true
+      }
+    ],
+    "component_count": 1,
+    "hole_count": 0,
+    "contacts": [],
+    "connectivity": "foreground_4_neighbors"
+  },
+  "normalization": {
+    "raw_source_size": [
+      1000,
+      1000
+    ],
+    "exif_orientation": 1,
+    "exif_applied": false,
+    "source_size": [
+      1000,
+      1000
+    ],
+    "canvas_size": [
+      1000,
+      1000
+    ],
+    "resized_size": [
+      1000,
+      1000
+    ],
+    "scale_x": 1.0,
+    "scale_y": 1.0,
+    "offset_top_left": [
+      0,
+      0
+    ],
+    "coordinate_domain": [
+      0,
+      1000
+    ],
+    "coordinate_convention": "x sağa, y yukarı; piksel (r,c) = [c,c+1] × [999-r,1000-r]",
+    "foreground_pixels": 235176,
+    "resampling": "threshold_then_nearest",
+    "threshold_method": "global_inclusive",
+    "threshold": 127,
+    "pixel_geometry": "unit_square_edges",
+    "source_transform_applies_to": "EXIF-oriented continuous pixel edges",
+    "source_to_working": [
+      [
+        1.0,
+        0,
+        0
+      ],
+      [
+        0,
+        -1.0,
+        1000
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "working_to_source": [
+      [
+        1.0,
+        0,
+        0.0
+      ],
+      [
+        0,
+        -1.0,
+        1000.0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "source": {
+    "sha256": "20ed27363cb052df4ae1805d33fd12d6ebd81c3b4774af0d27dcb0e2915c4d32",
+    "path": "D:\\Dev\\Personal\\sekilden-denkleme\\examples\\validation\\dataset\\bezier.png"
+  },
+  "implicit_polynomial": null,
+  "entity_mapping": [
+    {
+      "piece": 0,
+      "boundary": 0,
+      "native_curve": "bspline",
+      "edge_count": 1,
+      "reversed": false,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "face_wire_reversed": true
+    },
+    {
+      "piece": 1,
+      "boundary": 0,
+      "native_curve": "bspline",
+      "edge_count": 1,
+      "reversed": false,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "face_wire_reversed": true
+    },
+    {
+      "piece": 2,
+      "boundary": 0,
+      "native_curve": "bspline",
+      "edge_count": 1,
+      "reversed": false,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "face_wire_reversed": true
+    },
+    {
+      "piece": 3,
+      "boundary": 0,
+      "native_curve": "bspline",
+      "edge_count": 1,
+      "reversed": false,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "face_wire_reversed": true
+    }
+  ],
+  "native_curves": [
+    {
+      "kind": "bspline",
+      "params": {
+        "controls": [
+          [
+            47.400000000000006,
+            76.2
+          ],
+          [
+            63.3352474308038,
+            77.28109100692996
+          ],
+          [
+            76.74627863416332,
+            67.83943901334844
+          ],
+          [
+            77.9,
+            52.5
+          ]
+        ],
+        "degree": 3,
+        "knots": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "weights": null
+      },
+      "source_piece": 0,
+      "boundary_id": 0,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "reversed": false
+    },
+    {
+      "kind": "bspline",
+      "params": {
+        "controls": [
+          [
+            77.9,
+            52.5
+          ],
+          [
+            79.5025980758538,
+            36.164821422648906
+          ],
+          [
+            67.41718827363466,
+            24.850378009543796
+          ],
+          [
+            52.6,
+            23.8
+          ]
+        ],
+        "degree": 3,
+        "knots": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "weights": null
+      },
+      "source_piece": 1,
+      "boundary_id": 0,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "reversed": false
+    },
+    {
+      "kind": "bspline",
+      "params": {
+        "controls": [
+          [
+            52.6,
+            23.8
+          ],
+          [
+            36.6647525691962,
+            22.718908993070045
+          ],
+          [
+            23.253721365836675,
+            32.160560986651554
+          ],
+          [
+            22.1,
+            47.5
+          ]
+        ],
+        "degree": 3,
+        "knots": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "weights": null
+      },
+      "source_piece": 2,
+      "boundary_id": 0,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "reversed": false
+    },
+    {
+      "kind": "bspline",
+      "params": {
+        "controls": [
+          [
+            22.1,
+            47.5
+          ],
+          [
+            20.49740192414621,
+            63.8351785773511
+          ],
+          [
+            32.58281172636534,
+            75.14962199045621
+          ],
+          [
+            47.400000000000006,
+            76.2
+          ]
+        ],
+        "degree": 3,
+        "knots": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "weights": null
+      },
+      "source_piece": 3,
+      "boundary_id": 0,
+      "interval": [
+        0.0,
+        1.0
+      ],
+      "reversed": false
+    }
+  ],
+  "cad_complexity": {
+    "native_curve_count": 4,
+    "native_control_points": 16,
+    "polyline_vertices": 0,
+    "reader_edge_or_entity_count": 4,
+    "cad_file_bytes": 6212,
+    "source_model_score_bits": 2720
+  },
+  "approximated_source_pieces": [],
+  "reader": {
+    "reader": "Open CASCADE/OCP",
+    "reader_version": "7.9.3.1",
+    "edge_count": 4,
+    "wire_count": 1,
+    "max_join_gap": 0.0,
+    "internal_reader_unit": "mm"
+  },
+  "transfer_validation": {
+    "method": "bidirectional_finite_segment_convex_witness_cover_float64",
+    "transfer_upper_estimate": 0.0025000001002614806,
+    "tolerance": 0.01,
+    "unit": "mm",
+    "curve_polygon_budget_each": 0.00125,
+    "numeric_margin": 1e-10,
+    "witness_segments": 1024,
+    "boundary_count": 1,
+    "polygon_nesting_preserved": true,
+    "max_closure_gap": 0.0,
+    "max_abs_z": 0.0,
+    "join_margin": 0.0,
+    "reference_closure_roundoff": 0.0,
+    "verified_numerical_certificate": false,
+    "analytic_isotopy_proven_for_cad_file": false,
+    "scope": "CAD okuyucusundan tekrar alınan geometri; float64 kontrollü poligonlar. Kaynak model sertifikasından ayrıdır."
+  },
+  "physical_error_summary": {
+    "unit": "mm",
+    "source_verified_upper_scaled": 0.14360031339982948,
+    "cad_transfer_upper_estimate": 0.0025000001002614806,
+    "combined_pixel_boundary_upper_estimate": 0.14610031350009095,
+    "combined_verified_numerical_certificate": false,
+    "ideal_object_error_known": false
+  },
+  "original_model_certificate_scope": "source model and normalized pixel reference; does not certify the CAD file"
+}

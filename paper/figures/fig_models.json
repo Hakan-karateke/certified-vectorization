@@ -1,0 +1,9 @@
+{
+ "icon": "bi_wrench",
+ "epsilon": 2.0,
+ "reference_edges": 3620,
+ "polygon_edges": 69,
+ "line_arc_pieces": 27,
+ "line_arc_arcs": 21,
+ "potrace_pieces": 80
+}

@@ -1,0 +1,409 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:sekilden-denkleme:pilot:1.0",
+  "title": "Yerel CAD pilot çalışması 1.0 / protokol 1.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "protocol_version",
+    "title",
+    "created_at",
+    "trials"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "protocol_version": {
+      "const": "1.1"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 300
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "trials": {
+      "type": "array",
+      "maxItems": 10000,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "participant",
+          "product",
+          "product_version",
+          "operating_system",
+          "experience",
+          "baseline_method",
+          "case_id",
+          "task",
+          "method",
+          "repeat",
+          "order",
+          "kind",
+          "consent",
+          "status",
+          "seconds",
+          "timing",
+          "repairs",
+          "repair_types",
+          "checks",
+          "notes",
+          "evidence",
+          "format",
+          "target_tolerance_mm",
+          "time_limit_seconds",
+          "id",
+          "recorded_at"
+        ],
+        "properties": {
+          "participant": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 300
+          },
+          "product": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 300
+          },
+          "product_version": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 300
+          },
+          "operating_system": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 300
+          },
+          "experience": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 300
+          },
+          "baseline_method": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 300
+          },
+          "case_id": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 300
+          },
+          "repeat": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 300
+          },
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 300
+          },
+          "task": {
+            "enum": [
+              "import",
+              "profile",
+              "edit"
+            ]
+          },
+          "method": {
+            "enum": [
+              "generated",
+              "baseline"
+            ]
+          },
+          "kind": {
+            "enum": [
+              "human",
+              "training_demo"
+            ]
+          },
+          "consent": {
+            "type": "boolean"
+          },
+          "status": {
+            "enum": [
+              "completed",
+              "failed",
+              "timeout"
+            ]
+          },
+          "timing": {
+            "enum": [
+              "manual",
+              "stopwatch"
+            ]
+          },
+          "seconds": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 86400
+          },
+          "target_tolerance_mm": {
+            "type": "number",
+            "exclusiveMinimum": 0,
+            "maximum": 86400
+          },
+          "time_limit_seconds": {
+            "type": "number",
+            "exclusiveMinimum": 0,
+            "maximum": 86400
+          },
+          "order": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 10000
+          },
+          "repairs": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 10000
+          },
+          "notes": {
+            "type": "string",
+            "maxLength": 5000
+          },
+          "repair_types": {
+            "type": "string",
+            "maxLength": 1000
+          },
+          "format": {
+            "enum": [
+              "step",
+              "iges",
+              "dxf",
+              "other"
+            ]
+          },
+          "recorded_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "checks": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "units",
+              "dimensions",
+              "components",
+              "holes",
+              "closed_profile",
+              "extrusion",
+              "edit"
+            ],
+            "properties": {
+              "units": {
+                "type": [
+                  "boolean",
+                  "null"
+                ]
+              },
+              "dimensions": {
+                "type": [
+                  "boolean",
+                  "null"
+                ]
+              },
+              "components": {
+                "type": [
+                  "boolean",
+                  "null"
+                ]
+              },
+              "holes": {
+                "type": [
+                  "boolean",
+                  "null"
+                ]
+              },
+              "closed_profile": {
+                "type": [
+                  "boolean",
+                  "null"
+                ]
+              },
+              "extrusion": {
+                "type": [
+                  "boolean",
+                  "null"
+                ]
+              },
+              "edit": {
+                "type": [
+                  "boolean",
+                  "null"
+                ]
+              }
+            }
+          },
+          "evidence": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "path": {
+                "type": "string",
+                "maxLength": 2000
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{64}$"
+              },
+              "cad_sha256": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{64}$"
+              }
+            }
+          }
+        },
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "kind": {
+                  "const": "human"
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "consent": {
+                  "const": true
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "status": {
+                  "const": "completed"
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "seconds": {
+                  "exclusiveMinimum": 0
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "status": {
+                  "const": "completed"
+                },
+                "task": {
+                  "const": "import"
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "checks": {
+                  "properties": {
+                    "units": {
+                      "const": true
+                    },
+                    "dimensions": {
+                      "const": true
+                    },
+                    "components": {
+                      "const": true
+                    },
+                    "holes": {
+                      "const": true
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "status": {
+                  "const": "completed"
+                },
+                "task": {
+                  "const": "profile"
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "checks": {
+                  "properties": {
+                    "units": {
+                      "const": true
+                    },
+                    "dimensions": {
+                      "const": true
+                    },
+                    "components": {
+                      "const": true
+                    },
+                    "holes": {
+                      "const": true
+                    },
+                    "closed_profile": {
+                      "const": true
+                    },
+                    "extrusion": {
+                      "const": true
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "status": {
+                  "const": "completed"
+                },
+                "task": {
+                  "const": "edit"
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "checks": {
+                  "properties": {
+                    "units": {
+                      "const": true
+                    },
+                    "dimensions": {
+                      "const": true
+                    },
+                    "components": {
+                      "const": true
+                    },
+                    "holes": {
+                      "const": true
+                    },
+                    "edit": {
+                      "const": true
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$comment": "Süre sınırına göre başarı, tekrarsız kimlik/eş anahtarları ve saat dilimi runtime doğrulamasında ayrıca denetlenir."
+}

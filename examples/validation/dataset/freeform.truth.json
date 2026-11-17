@@ -1,0 +1,130 @@
+{
+  "coordinate_system": "working_1000_y_up",
+  "rasterization": "pixel_center_contains",
+  "curve_flatten_bound": 0.01,
+  "noise_seed": null,
+  "pieces": [
+    [
+      {
+        "kind": "bezier",
+        "params": {
+          "controls": [
+            [
+              200,
+              450
+            ],
+            [
+              100,
+              800
+            ],
+            [
+              430,
+              950
+            ],
+            [
+              530,
+              730
+            ]
+          ]
+        },
+        "interval": [
+          0.0,
+          1.0
+        ],
+        "start": [
+          200.0,
+          450.0
+        ],
+        "end": [
+          530.0,
+          730.0
+        ],
+        "boundary_id": 0,
+        "component_id": 0,
+        "transform": "normalization.source_to_working",
+        "errors": {},
+        "tolerances": {}
+      },
+      {
+        "kind": "bezier",
+        "params": {
+          "controls": [
+            [
+              530,
+              730
+            ],
+            [
+              800,
+              950
+            ],
+            [
+              950,
+              450
+            ],
+            [
+              710,
+              400
+            ]
+          ]
+        },
+        "interval": [
+          0.0,
+          1.0
+        ],
+        "start": [
+          530.0,
+          730.0
+        ],
+        "end": [
+          710.0,
+          400.0
+        ],
+        "boundary_id": 0,
+        "component_id": 0,
+        "transform": "normalization.source_to_working",
+        "errors": {},
+        "tolerances": {}
+      },
+      {
+        "kind": "bezier",
+        "params": {
+          "controls": [
+            [
+              710,
+              400
+            ],
+            [
+              700,
+              100
+            ],
+            [
+              250,
+              80
+            ],
+            [
+              200,
+              450
+            ]
+          ]
+        },
+        "interval": [
+          0.0,
+          1.0
+        ],
+        "start": [
+          710.0,
+          400.0
+        ],
+        "end": [
+          200.0,
+          450.0
+        ],
+        "boundary_id": 0,
+        "component_id": 0,
+        "transform": "normalization.source_to_working",
+        "errors": {},
+        "tolerances": {}
+      }
+    ]
+  ]
+}

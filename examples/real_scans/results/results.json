@@ -1,0 +1,49 @@
+[
+ {
+  "source": "santa_cruz",
+  "crop": [
+   3000,
+   3600,
+   1024
+  ],
+  "variant": "raw",
+  "threshold": 194,
+  "counts": {
+   "components": 5885,
+   "holes": 338,
+   "contacts": 2274,
+   "rings": 6223,
+   "edges": 146442
+  },
+  "e1": {
+   "polygon": {
+    "pieces": 40307,
+    "arcs": 0,
+    "optimal_in_class": false,
+    "search_seconds": 2218.51537800004,
+    "certify_seconds": 18.58889149996685,
+    "certificate_status": "undetermined",
+    "certified_upper_bound": 0.999717164257234,
+    "topology_method": null,
+    "certificate_reasons": [
+     "Bernstein/Jordan yeter koşulları sağlanamadı; genel topoloji sonucu çıkarılmaz."
+    ]
+   }
+  },
+  "e2": {
+   "polygon": {
+    "pieces": 26464,
+    "arcs": 0,
+    "optimal_in_class": false,
+    "search_seconds": 914.9766894999775,
+    "certify_seconds": 24.03180669998983,
+    "certificate_status": "undetermined",
+    "certified_upper_bound": 1.9994727268310575,
+    "topology_method": null,
+    "certificate_reasons": [
+     "Bernstein/Jordan yeter koşulları sağlanamadı; genel topoloji sonucu çıkarılmaz."
+    ]
+   }
+  }
+ }
+]

@@ -1,0 +1,35 @@
+{
+ "santa_cruz": {
+  "file": "santa_cruz_quadrangle_1902.png",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Santa-Cruz-Quadrangle-1902.png",
+  "origin": "U.S. Geological Survey, Santa Cruz quadrangle, 1902",
+  "sha256": "477b76e1d4591dcd63ef748bafbf18838436b6af90cd0cc51fb1e12ce32b498b",
+  "size": [
+   6623,
+   8747
+  ],
+  "used_in_paper": true
+ },
+ "edison": {
+  "file": "edison_electric_lamp_nara_595450.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Drawing_for_an_Electric_Lamp_-_NARA_-_595450.jpg",
+  "origin": "U.S. National Archives, identifier 595450, patent 223,898 drawing, 1880",
+  "sha256": "6e95ad7f4cc8a1228d25e7db4c46ad731fa50d9ceb1e169acb831c7d254f6b81",
+  "size": [
+   8052,
+   11665
+  ],
+  "used_in_paper": false
+ },
+ "haer": {
+  "file": "haer_ak_30_a_108_floor_plan.tif",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Back_side_technical_facilities_S.R._%28scanning_radar%29%2C_scanner_building_no._104%2C_%22first_floor_and_mezzanine_plan%22_-_architectural%2C_AS-BLT_AW_35-03-89%2C_sheet_1_of_40%2C_dated_HAER_AK-30-A-108.tif",
+  "origin": "Historic American Engineering Record, HAER AK-30-A-108",
+  "sha256": "cacf6ef39236b5416f2312236595e4a8db0765aef1f7e5e7e78cd04d0ca323a6",
+  "size": [
+   5379,
+   4264
+  ],
+  "used_in_paper": false
+ }
+}
